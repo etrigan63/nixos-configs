@@ -1,0 +1,6 @@
+##!/usr/bin/env bash
+
+COLORS="tokyonight.rasi"
+CONFIG="$HOME/.config/powermenu/shared"
+
+cp $CONFIG/$COLORS $CONFIG/default.rasi

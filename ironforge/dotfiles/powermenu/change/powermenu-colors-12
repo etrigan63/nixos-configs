@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+COLORS="onedark.rasi"
+CONFIG="$HOME/.config/powermenu/shared"
+
+cp $CONFIG/$COLORS $CONFIG/default.rasi

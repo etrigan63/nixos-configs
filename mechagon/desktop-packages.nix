@@ -21,10 +21,11 @@
     catppuccin-kvantum
     cava
     chromium
-    dash
-    eww
+    #dash
+    #eww
     #feh
     #font-awesome
+    fuzzel
     glib
     gnumake
     grim

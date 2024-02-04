@@ -55,7 +55,10 @@
   boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.kernelParams = ["amdgpu.sg_display=0"];
 
-  networking.hostName = "ironforge"; # Define your hostname.
+  # Boot loader limit entries
+  boot.loader.systemd-boot.configurationLimit = 10;
+
+  networking.hostName = "mechagon"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -334,11 +337,11 @@
   system.stateVersion = "23.11"; # Did you read the comment?
 
   # Automatic garbage collection of old generations
-  nix.gc = {
-    automatic = true;
-    dates = "weekly";
-    options = "--delete-older-than 30d";
-  };
+  #nix.gc = {
+  #  automatic = true;
+  #  dates = "weekly";
+  #  options = "--delete-older-than 14d";
+  #};
  
   nixpkgs.config.permittedInsecurePackages = [
 	 "openssl-1.1.1w" "electron-19.1.9"

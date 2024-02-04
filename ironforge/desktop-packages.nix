@@ -25,6 +25,7 @@
     eww
     #feh
     #font-awesome
+    fuzzel
     glib
     gnumake
     grim

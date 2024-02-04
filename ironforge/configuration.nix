@@ -334,11 +334,11 @@
   system.stateVersion = "23.11"; # Did you read the comment?
 
   # Automatic garbage collection of old generations
-  nix.gc = {
-    automatic = true;
-    dates = "weekly";
-    options = "--delete-older-than 30d";
-  };
+  #nix.gc = {
+  #  automatic = true;
+  #  dates = "weekly";
+  #  options = "--delete-older-than 30d";
+  #};
  
   nixpkgs.config.permittedInsecurePackages = [
 	 "openssl-1.1.1w" "electron-19.1.9"

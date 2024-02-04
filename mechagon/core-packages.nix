@@ -21,7 +21,7 @@
     betterdiscordctl
     bibata-cursors
     blueberry
-    btop
+    bottom
     #chromium
     curl
     desktop-file-utils

@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 
-CONFIG="$HOME/.config/hypr/mako/config"
+CONFIG="$HOME/.config/swaync/config.json"
+STYLE="$HOME/.config/swaync/style.css"
 
-if [[ ! $(pidof mako) ]]; then
-	mako --config ${CONFIG}
+#if [[ ! $(pidof mako) ]]; then
+#	mako --config ${CONFIG}
+#fi
+#
+if [[ ! $(pidof swaync) ]]; then
+	swaync -c $CONFIG -s $STYLE
 fi

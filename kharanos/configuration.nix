@@ -19,7 +19,7 @@
   # Enable ZFS
 
   boot.kernelPackages = config.boot.zfs.package.latestCompatibleLinuxPackages;
-  fileSystems."/mnt/tank" = {
+  fileSystems."/mnt/tank/raid5" = {
     device = "tank";
     fsType = "zfs";
   };

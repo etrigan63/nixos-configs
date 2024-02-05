@@ -25,6 +25,7 @@
   };
 
   networking.hostName = "kharanos"; # Define your hostname.
+  networking.hostId = "dbde4fe5";
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary

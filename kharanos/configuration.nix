@@ -49,7 +49,13 @@
   };
 
   # Enable NFS
-  services.nfs.server.enable = true;
+  services.nfs.server = {
+    enable = true;
+    exports = ''
+      # Export /mnt/tank
+      /mnt/tank		192.168.1.0/24(rw,crossmnt,sync,no_wdelay,no_root_squash,insecure,no_subtree_check)
+      '';
+  };    
 
   # Set your time zone.
   time.timeZone = "America/New_York";

@@ -17,12 +17,12 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   # Enable ZFS
-
   boot.kernelPackages = config.boot.zfs.package.latestCompatibleLinuxPackages;
   fileSystems."/mnt/tank" = {
     device = "tank";
     fsType = "zfs";
   };
+  services.zfs.autoScrub.enable = true;
 
   networking.hostName = "kharanos"; # Define your hostname.
   networking.hostId = "dbde4fe5";
@@ -34,6 +34,22 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
+ 
+  # Enable avahi
+  services.avahi = {
+    nssmdns = true;
+    enable = true;
+    ipv4 = true;
+    ipv6 = true;
+    publish = {
+      enable = true;
+      addresses = true;
+      workstation = true;
+    };
+  };
+
+  # Enable NFS
+  services.nfs.server.enable = true;
 
   # Set your time zone.
   time.timeZone = "America/New_York";

@@ -33,6 +33,35 @@
       #./virtualbox.nix
       ./desktops/hyprland.nix
     ];
+  
+  # Mount BTRFS subvolumes
+  fileSystesm = {
+    "/" = {
+      label = "nixos";
+      fsType = "btrfs";
+      options = [ "compress=ztsd" "subvol=@"];
+    };
+    "/home" = {
+      label = "nixos";
+      fsType = "btrfs";
+      options = [ "compress=ztsd" "subvol=@home" ];
+    };
+    "/var" = {
+      label = "nixos";
+      fsType = "btrfs";
+      options = [ "compress=ztsd" "subvol=@var" ];
+    };
+    "/nix" = {
+      label = "nixos";
+      fsType = "btrfs";
+      options = [ "compress=ztsd" "noatime" "subvol=@nix" ];
+    };
+    "/swap" = {
+      label = "nixos";
+      fsType = "btrfs";
+      options = [ "noatime" ];
+    };
+  };
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;

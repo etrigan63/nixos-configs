@@ -52,7 +52,7 @@
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   # Kernel
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_lqx;
   boot.kernelParams = ["amdgpu.sg_display=0"];
 
   networking.hostName = "ironforge"; # Define your hostname.

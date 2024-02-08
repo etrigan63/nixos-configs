@@ -35,12 +35,7 @@
     ];
   
   # Mount BTRFS subvolumes
-  fileSystesm = {
-    "/" = {
-      label = "nixos";
-      fsType = "btrfs";
-      options = [ "compress=ztsd" "subvol=@"];
-    };
+  fileSystems = {
     "/home" = {
       label = "nixos";
       fsType = "btrfs";

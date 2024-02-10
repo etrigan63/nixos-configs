@@ -91,19 +91,9 @@
   # Enable flatpaks
   services.flatpak.enable = true;
 
-  # Enable syncthing
-  #services = {
-  #  syncthing = {
-  #      enable = true;
-  #      user = "guru";
-  #      dataDir = "/home/guru/Sync";    # Default folder for new synced folders
-  #      configDir = "/home/guru/.config/syncthing";   # Folder for Syncthing's settings and keys
-  #  };
-  #};
-
   # Mount NFS share
   fileSystems."/mnt/tank" = {
-    device = "192.168.1.99:/mnt/tank";
+    device = "kharanos.local:/mnt/tank";
     fsType = "nfs";
   };
 

@@ -56,7 +56,7 @@
     inxi
     killall
     #kitty
-    #libsecret
+    libsecret
     lm_sensors
     lshw
     #meld

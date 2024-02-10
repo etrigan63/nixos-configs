@@ -40,12 +40,12 @@
             <maxTotalSize>4096</maxTotalSize>
         </xattrFilter>
     </folder>
-    <folder id="n3mn5-gfsus" label="photo-ingest" path="~/Pictures/photo-ingest" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
+    <folder id="jwcgj-qvs9s" label="photo-ingest" path="~/Pictures/photo-ingest" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="VM3YFRR-TAUOVWP-VRQJGC4-UBBIRK7-BTLA7BO-BCDJBL6-RUDSZ5X-UYCUXQ3" introducedBy="">
+        <device id="SYTRFV2-DAHYCO7-R44QCTO-5WMRH46-5GVWGFC-T3N2PMD-IIVDWKT-XOUUWQZ" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
-        <device id="7RVLOBT-S53FX3I-7IWLBSF-K67WC3U-4AHD3AV-CWHMWVR-ATVWHUB-IBD35QJ" introducedBy="">
+        <device id="VM3YFRR-TAUOVWP-VRQJGC4-UBBIRK7-BTLA7BO-BCDJBL6-RUDSZ5X-UYCUXQ3" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <minDiskFree unit="%">1</minDiskFree>
@@ -84,12 +84,12 @@
             <maxTotalSize>4096</maxTotalSize>
         </xattrFilter>
     </folder>
-    <folder id="yxxor-g3rmy" label="video-ingest" path="~/Videos/video-ingest" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
+    <folder id="qdy4y-jvbnz" label="video-ingest" path="~/Videos/video-ingest" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="VM3YFRR-TAUOVWP-VRQJGC4-UBBIRK7-BTLA7BO-BCDJBL6-RUDSZ5X-UYCUXQ3" introducedBy="">
+        <device id="SYTRFV2-DAHYCO7-R44QCTO-5WMRH46-5GVWGFC-T3N2PMD-IIVDWKT-XOUUWQZ" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
-        <device id="7RVLOBT-S53FX3I-7IWLBSF-K67WC3U-4AHD3AV-CWHMWVR-ATVWHUB-IBD35QJ" introducedBy="">
+        <device id="VM3YFRR-TAUOVWP-VRQJGC4-UBBIRK7-BTLA7BO-BCDJBL6-RUDSZ5X-UYCUXQ3" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <minDiskFree unit="%">1</minDiskFree>
@@ -128,7 +128,7 @@
             <maxTotalSize>4096</maxTotalSize>
         </xattrFilter>
     </folder>
-    <device id="VM3YFRR-TAUOVWP-VRQJGC4-UBBIRK7-BTLA7BO-BCDJBL6-RUDSZ5X-UYCUXQ3" name="mechagon" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="SYTRFV2-DAHYCO7-R44QCTO-5WMRH46-5GVWGFC-T3N2PMD-IIVDWKT-XOUUWQZ" name="kharanos" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
@@ -139,7 +139,7 @@
         <remoteGUIPort>0</remoteGUIPort>
         <numConnections>0</numConnections>
     </device>
-    <device id="7RVLOBT-S53FX3I-7IWLBSF-K67WC3U-4AHD3AV-CWHMWVR-ATVWHUB-IBD35QJ" name="ironforge" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="VM3YFRR-TAUOVWP-VRQJGC4-UBBIRK7-BTLA7BO-BCDJBL6-RUDSZ5X-UYCUXQ3" name="mechagon" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>

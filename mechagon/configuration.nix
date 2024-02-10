@@ -5,22 +5,12 @@
 
 { config, pkgs, ... }:
 
-#let
-#  unstableTarball =
-#    fetchTarball
-#      https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz;
-#in
 
 {
   # Allow unfree packages
-#  nixpkgs.config = {
-#    allowUnfree = true;
-#    packageOverrides = pkgs: {
-#      unstable = import unstableTarball {
-#        config = config.nixpkgs.config;
-#        };
-#      };
-#    };
+  nixpkgs.config = {
+    allowUnfree = true;
+  };
 
   imports =
     [ # Include the results of the hardware scan.
@@ -34,30 +24,6 @@
       ./desktops/hyprland.nix
     ];
   
-  # Mount BTRFS subvolumes
-  fileSystems = {
-    "/home" = {
-      label = "nixos";
-      fsType = "btrfs";
-      options = [ "compress=ztsd" "subvol=@home" ];
-    };
-    "/var" = {
-      label = "nixos";
-      fsType = "btrfs";
-      options = [ "compress=ztsd" "subvol=@var" ];
-    };
-    "/nix" = {
-      label = "nixos";
-      fsType = "btrfs";
-      options = [ "compress=ztsd" "noatime" "subvol=@nix" ];
-    };
-    "/swap" = {
-      label = "nixos";
-      fsType = "btrfs";
-      options = [ "noatime" ];
-    };
-  };
-
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;

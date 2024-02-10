@@ -5,22 +5,12 @@
 
 { config, pkgs, ... }:
 
-#let
-#  unstableTarball =
-#    fetchTarball
-#      https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz;
-#in
 
 {
   # Allow unfree packages
-#  nixpkgs.config = {
-#    allowUnfree = true;
-#    packageOverrides = pkgs: {
-#      unstable = import unstableTarball {
-#        config = config.nixpkgs.config;
-#        };
-#      };
-#    };
+  nixpkgs.config = {
+    allowUnfree = true;
+  };
 
   imports =
     [ # Include the results of the hardware scan.
@@ -33,7 +23,7 @@
       #./virtualbox.nix
       ./desktops/hyprland.nix
     ];
-
+  
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -52,7 +42,7 @@
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   # Kernel
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_lqx;
   boot.kernelParams = ["amdgpu.sg_display=0"];
 
   # Boot loader limit entries

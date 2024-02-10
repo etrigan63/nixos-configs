@@ -52,10 +52,10 @@
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   # Kernel
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_lqx;
   boot.kernelParams = ["amdgpu.sg_display=0"];
 
-  networking.hostName = "mechagon"; # Define your hostname.
+  networking.hostName = "ironforge"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -91,19 +91,9 @@
   # Enable flatpaks
   services.flatpak.enable = true;
 
-  # Enable syncthing
-  #services = {
-  #  syncthing = {
-  #      enable = true;
-  #      user = "guru";
-  #      dataDir = "/home/guru/Sync";    # Default folder for new synced folders
-  #      configDir = "/home/guru/.config/syncthing";   # Folder for Syncthing's settings and keys
-  #  };
-  #};
-
   # Mount NFS share
   fileSystems."/mnt/tank" = {
-    device = "192.168.1.99:/mnt/tank";
+    device = "kharanos.local:/mnt/tank";
     fsType = "nfs";
   };
 
@@ -347,7 +337,7 @@
   #  options = "--delete-older-than 30d";
   #};
  
-  nixpkgs.config.permittedInsecurePackages = [
-	 "openssl-1.1.1w" "electron-19.1.9"
-  ];
+  #nixpkgs.config.permittedInsecurePackages = [
+	# "openssl-1.1.1w" "electron-19.1.9"
+  #];
 }

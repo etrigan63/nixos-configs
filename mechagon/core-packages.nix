@@ -45,6 +45,7 @@
     gitui
     gnome.dconf-editor
     gnome.gnome-disk-utility
+    gnome.gnome-keyring
     gnome.gvfs
     #hack-font
     hblock

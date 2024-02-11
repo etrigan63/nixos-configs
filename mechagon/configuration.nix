@@ -184,7 +184,12 @@
   services.xserver = {
     layout = "us";
     xkbVariant = "";
-    libinput.touchpad.disableWhileTyping = true;
+  };
+
+  # Touchpad configuration
+  services.xserver.libinput.touchpad = {
+    disableWhileTyping = true;
+    tapping = false;
   };
 
   # Enable CUPS to print documents.

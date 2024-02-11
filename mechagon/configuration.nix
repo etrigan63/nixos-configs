@@ -103,12 +103,12 @@
     amdvlk
   ];
 
-  # Enable the KDE Plasma Desktop Environment.
+  # Enable SDDM.
   services.xserver.displayManager.sddm = {
 	enable = true;
 	theme = "chili";
-  };
-  # services.xserver.desktopManager.plasma5.enable = true;
+  }; 
+
   # for wayland dark theme  
   programs.dconf = {
      enable = true;

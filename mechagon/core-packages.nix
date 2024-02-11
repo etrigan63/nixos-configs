@@ -60,10 +60,11 @@
     libsecret
     lm_sensors
     lshw
+    lunarvim
     meld
     most
     fastfetch
-    neovim
+    #neovim
     nerdfonts
     networkmanagerapplet
     nixos-generators
@@ -90,6 +91,7 @@
     tree
     unzip
     variety
+    vimPlugins.nvchad
     vlc
     volumeicon
     #vscode

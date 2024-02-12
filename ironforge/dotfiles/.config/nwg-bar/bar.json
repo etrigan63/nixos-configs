@@ -1,12 +1,12 @@
 [
   {
     "label": "Lock",
-    "exec": "/home/guru/.config/niri/scripts/lockscreen",
+    "exec": "/home/guru/.config/hypr/scripts/lockscreen",
     "icon": "/usr/share/nwg-bar/images/system-lock-screen.svg"
   },
   {
     "label": "Logout",
-    "exec": "niri msg action quit",
+    "exec": "hyprctl dispatch exit",
     "icon": "/usr/share/nwg-bar/images/system-log-out.svg"
   },
   {

@@ -28,6 +28,7 @@ in
     unstable.darktable
     unstable.digikam
     unstable.nwg-drawer
+    unstable.spotube
     unstable.sublime4
    ];
  }  

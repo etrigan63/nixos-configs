@@ -31,7 +31,8 @@
       ./env-vars.nix
       ./unstable.nix
       #./virtualbox.nix
-      ./desktops/hyprland.nix
+      #./desktops/hyprland.nix
+      ./desktops/niri.nix
     ];
 
   # Bootloader.

@@ -41,7 +41,6 @@ tput sgr0
 echo
 
 sudo cp -vf *.nix /etc/nixos/
-sudo cp -vf *.lock /etc/nixos/
 sudo cp -vrf desktops /etc/nixos/
 
 sudo nixos-rebuild switch

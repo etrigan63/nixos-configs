@@ -16,6 +16,7 @@
       # Apps
       ./core-packages.nix
       ./desktop-packages.nix
+      ./env-vars.nix
       ./unstable.nix
     ];
 

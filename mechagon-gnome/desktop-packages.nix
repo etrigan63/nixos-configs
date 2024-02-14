@@ -4,7 +4,7 @@
 
 { config, pkgs, ... }:
 
-# Plasma + Awesome, Bspwm, i3wm and more
+# Gnome desktop
 
 {
   environment.systemPackages = with pkgs; [
@@ -17,6 +17,7 @@
       variant = "mocha";
     })
     catppuccin-kvantum
+    celluloid
     chromium
     discord
     filezilla
@@ -27,6 +28,7 @@
     gnomeExtensions.appindicator
     gnomeExtensions.dash-to-dock
     gnomeExtensions.paperwm
+    hplip
     inkscape
     meld
     obs-studio

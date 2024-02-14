@@ -164,6 +164,7 @@
     # nssmdns4 = true;
     ipv4 = true;
     ipv6 = true;
+    openFirewall = true;
     publish = {
       enable = true;
       workstation = true;
@@ -207,6 +208,10 @@
 
   # Flatpak
   services.flatpak.enable = true;
+
+  # Virtualization
+    virtualisation.libvirtd.enable = true;
+    programs.virt-manager.enable = true;
 
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;

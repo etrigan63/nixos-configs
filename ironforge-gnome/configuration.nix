@@ -30,7 +30,7 @@
   boot.kernelParams = [ "amdgpu.sg_display=0" ];
   boot.supportedFilesystems = [ "bcachefs" ];
 
-  networking.hostName = "mechagon"; # Define your hostname.
+  networking.hostName = "ironforge"; # Define your hostname.
   # Pick only one of the below networking options.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
   networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
@@ -41,6 +41,12 @@
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
+
+  # Mount NFS share
+  fileSystems."/mnt/tank" = {
+    device = "kharanos.local:/mnt/tank";
+    fsType = "nfs";
+  };
 
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
@@ -122,7 +128,7 @@
   };
 
   # Enable touchpad support (enabled default in most desktopManager).
-  services.xserver.libinput.enable = true;
+  # services.xserver.libinput.enable = true;
 
   # Enable fish shell
   programs.fish.enable = true;
@@ -199,28 +205,28 @@
   services.gvfs.enable = true;
 
   # Syncthing
-  services.syncthing = {
-    enable = true;
-    user = "guru";
-    dataDir = "/home/guru/Sync";
-    configDir = "/home/guru/.config/syncthing";
-  };
+  #services.syncthing = {
+  #  enable = true;
+  #  user = "guru";
+  #  dataDir = "/home/guru/Sync";
+  #  configDir = "/home/guru/.config/syncthing";
+  #};
 
   # Tailscale
-  services.tailscale.enable = true;
+  # services.tailscale.enable = true;
 
   # Flatpak
   services.flatpak.enable = true;
 
   # Virtualization
-    virtualisation.libvirtd.enable = true;
-    programs.virt-manager.enable = true;
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
 
   # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
+  services.openssh.enable = true;
 
   # Disable x11-askPass
-    programs.ssh.askPassword = "";
+  programs.ssh.askPassword = "";
 
   # Hardware
   # OpenCL and Vulkan

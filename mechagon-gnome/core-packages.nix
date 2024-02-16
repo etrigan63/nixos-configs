@@ -40,6 +40,7 @@
     libnotify
     libsForQt5.qtstyleplugin-kvantum
     libsForQt5.qt5ct
+    libva
     libva-utils
     lm_sensors
     lshw

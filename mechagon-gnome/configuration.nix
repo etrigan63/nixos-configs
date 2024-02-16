@@ -26,6 +26,7 @@
     configurationLimit = 10;
   };
   boot.loader.efi.canTouchEfiVariables = true;
+  boot.initrd.kernelModules=["amdgpu"];
   boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.kernelParams = [ "amdgpu.sg_display=0" ];
   boot.supportedFilesystems = [ "bcachefs" ];
@@ -64,6 +65,7 @@
   # Enable the X11 windowing system.
   services.xserver = {
     enable = true;
+    videoDrivers=["amdgpu"];
     displayManager.gdm = { 
       enable = true;
       wayland = true;
@@ -225,6 +227,8 @@
   # Hardware
   # OpenCL and Vulkan
   hardware.opengl.extraPackages = with pkgs; [
+    amdvlk
+    libvdpau-va-gl
     rocmPackages.clr.icd
     amdvlk
   ];

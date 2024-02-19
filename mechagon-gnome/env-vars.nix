@@ -10,6 +10,8 @@
     VISUAL = "lvim";
     BROWSER = "firefox";
     QT_QPA_PLATFORM = "xcb";
+    VDPAU_DRIVER = "radeonsi";
+    LIBVA_DRIVER_NAME ="radeonsi";
     #QT_QPA_PLATFORMTHEME = lib.mkForce "qt5ct";
   };
 

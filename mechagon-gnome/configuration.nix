@@ -226,12 +226,14 @@
 
   # Hardware
   # OpenCL and Vulkan
-  hardware.opengl.extraPackages = with pkgs; [
-    amdvlk
-    libvdpau-va-gl
-    rocmPackages.clr.icd
-    amdvlk
-  ];
+  hardware.opengl = { 
+    enable = true;
+    extraPackages = with pkgs; [
+      amdvlk
+      libvdpau-va-gl
+      rocmPackages.clr.icd
+    ];
+  };  
 
   # Bluetooth
   hardware.bluetooth = {

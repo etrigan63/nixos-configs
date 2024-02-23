@@ -22,6 +22,7 @@
     #etcher
     evince
     fastfetch
+    ffmpeg
     fish
     fishPlugins.tide
     fsearch

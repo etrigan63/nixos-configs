@@ -26,7 +26,6 @@
     configurationLimit = 10;
   };
   boot.loader.efi.canTouchEfiVariables = true;
-  boot.initrd.kernelModules=["amdgpu"];
   boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.kernelParams = [ "amdgpu.sg_display=0" ];
   boot.supportedFilesystems = [ "bcachefs" ];
@@ -71,6 +70,14 @@
       wayland = true;
     };  
     desktopManager.gnome.enable = true;
+  };
+
+  xdg.portal = {
+    enable = true;
+    extraPortals = [
+      pkgs.xdg-desktop-portal-gnome
+  #    pkgs.xdg-desktop-portal-gtk
+    ];
   };
 
   # Exclude some gnome packages

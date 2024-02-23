@@ -27,7 +27,6 @@ in
 
     unstable.darktable
     unstable.digikam
-    unstable.shotcut
     unstable.spotube
     unstable.sublime4
    ];

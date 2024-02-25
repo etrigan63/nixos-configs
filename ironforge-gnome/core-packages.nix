@@ -55,8 +55,9 @@
     #simplescreenrecorder
     tree
     unzip
+    usbutils
     wget
     wireplumber
-    xorg.xkill
+    #xorg.xkill
   ];
 }

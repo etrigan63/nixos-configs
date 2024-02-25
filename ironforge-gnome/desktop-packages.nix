@@ -27,6 +27,7 @@
     gimp
     gnome.gnome-tweaks
     gnomeExtensions.appindicator
+    gnomeExtensions.caffeine
     gnomeExtensions.dash-to-dock
     gnomeExtensions.paperwm
     hplip
@@ -38,13 +39,13 @@
     papirus-icon-theme
     qbittorrent-qt5
     rapid-photo-downloader
-    slstatus
+    # slstatus
     # syncthingtray
     telegram-desktop
     thunderbird
     # tokyo-night-gtk
     # trayscale
-    variety
+    # variety
     wl-clipboard
 ];
 }

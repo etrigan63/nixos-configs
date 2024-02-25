@@ -10,13 +10,12 @@
   environment.systemPackages = with pkgs; [
     avahi
     bat
-    betterdiscordctl
     bibata-cursors
     bottom
     cava
     curl
     desktop-file-utils
-    #dropbox
+    dropbox
     duf
     edid-decode
     #etcher
@@ -34,7 +33,7 @@
     hw-probe
     hwinfo
     imlib2
-    #insync
+    insync
     inxi
     killall
     libnotify

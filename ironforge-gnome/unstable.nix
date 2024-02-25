@@ -29,6 +29,5 @@ in
     unstable.digikam
     unstable.spotube
     unstable.sublime4
-    unstable.warp-terminal
    ];
  }  

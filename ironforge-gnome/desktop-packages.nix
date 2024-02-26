@@ -47,5 +47,6 @@
     # trayscale
     # variety
     wl-clipboard
+    yt-dlp
 ];
 }

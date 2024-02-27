@@ -25,6 +25,7 @@
     firefox
     fragments
     gimp
+    gimpPlugins.gimplensfun
     gnome.gnome-tweaks
     gnomeExtensions.appindicator
     gnomeExtensions.caffeine
@@ -32,16 +33,17 @@
     gnomeExtensions.paperwm
     hplip
     inkscape
+    lensfun
     meld
     obs-studio
     obs-studio-plugins.wlrobs
     ocs-url
     papirus-icon-theme
-    qbittorrent-qt5
     rapid-photo-downloader
     # slstatus
     # syncthingtray
     telegram-desktop
+    tootle
     thunderbird
     # tokyo-night-gtk
     # trayscale

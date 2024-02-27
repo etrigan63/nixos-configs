@@ -28,6 +28,7 @@ in
     unstable.darktable
     unstable.digikam
     unstable.ffmpeg-full
+    unstable.fractal
     unstable.spotube
     unstable.sublime4
    ];

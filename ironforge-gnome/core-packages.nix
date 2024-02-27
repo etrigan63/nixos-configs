@@ -46,6 +46,7 @@
     most
     nixos-generators
     (nnn.override { withNerdIcons = true; })
+    nvme-cli
     ookla-speedtest
     procps
     python3

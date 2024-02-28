@@ -33,5 +33,6 @@ in
     unstable.nextcloud-client
     unstable.spotube
     unstable.sublime4
+    unstable.tuba
    ];
  }  

@@ -15,7 +15,6 @@
     cava
     curl
     desktop-file-utils
-    dropbox
     duf
     edid-decode
     #etcher
@@ -33,7 +32,6 @@
     hw-probe
     hwinfo
     imlib2
-    insync
     inxi
     killall
     libnotify

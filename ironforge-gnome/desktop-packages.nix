@@ -39,15 +39,16 @@
     obs-studio-plugins.wlrobs
     ocs-url
     papirus-icon-theme
+    popsicle
     rapid-photo-downloader
     # slstatus
     # syncthingtray
     telegram-desktop
-    tootle
     thunderbird
     # tokyo-night-gtk
     # trayscale
     # variety
+    ventoy
     wl-clipboard
     yt-dlp
 ];

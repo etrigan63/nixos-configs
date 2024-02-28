@@ -103,6 +103,7 @@
     noto-fonts-emoji
     roboto
     roboto-slab
+    tt2020
   ];
 
   # Configure keymap in X11

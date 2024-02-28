@@ -29,6 +29,8 @@ in
     unstable.digikam
     unstable.ffmpeg-full
     unstable.fractal
+    unstable.insync
+    unstable.nextcloud-client
     unstable.spotube
     unstable.sublime4
    ];

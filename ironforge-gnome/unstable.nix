@@ -32,6 +32,9 @@ in
     unstable.filezilla
     unstable.ffmpeg-full
     unstable.insync
+    unstable.kitty
+    unstable.kitty-img
+    unstable.kitty-themes
     unstable.nextcloud-client
     unstable.spotube
     #unstable.wineWowPackages.waylandFull

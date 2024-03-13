@@ -221,19 +221,8 @@
   # Flatpak
   services.flatpak.enable = true;
 
-  # Virtualization
-    virtualisation = {
-      libvirtd = {
-        enable = true;
-      };
-      podman = {
-        enable = true;
-        dockerCompat = true;
-        defaultNetwork.settings.dns_enabled = true;
-      };
-    };  
-    programs.virt-manager.enable = true;
-
+  # Virtualisation
+  virtualisation.vmware.host.enable = true;
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
@@ -299,9 +288,5 @@
   # For more information, see `man configuration.nix` or https://nixos.org/manual/nixos/stable/options#opt-system.stateVersion .
   system.stateVersion = "23.11"; # Did you read the comment?
 
-  nixpkgs.config.permittedInsecurePackages = [
-    "openssl-1.1.1w"
-    "electron-19.1.9"
-  ];
 }
 

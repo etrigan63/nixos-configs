@@ -60,6 +60,5 @@
     unzip
     wget
     wireplumber
-    xorg.xkill
   ];
 }

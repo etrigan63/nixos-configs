@@ -8,8 +8,9 @@
 
 let
   unstableTarball =
-    fetchTarball
-      https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz;
+    fetchTarball  {
+      url ="https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz";
+    };  
 in
 
 {
@@ -27,8 +28,9 @@ in
 
     unstable.darktable
     unstable.digikam
-    unstable.distrobox
+    unstable.filezilla
+    unstable.obs-studio
+    unstable.obs-studio-plugins.wlrobs
     unstable.spotube
-    unstable.sublime4
    ];
  }  

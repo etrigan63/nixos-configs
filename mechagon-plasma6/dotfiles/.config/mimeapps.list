@@ -1,0 +1,20 @@
+[Added Associations]
+application/x-shellscript=sublime_text.desktop;
+text/plain=sublime_text.desktop;
+x-scheme-handler/mailto=userapp-Betterbird-DTE2H2.desktop;userapp-Thunderbird-XIOGI2.desktop;
+x-scheme-handler/mid=userapp-Betterbird-DTE2H2.desktop;userapp-Thunderbird-XIOGI2.desktop;
+x-scheme-handler/webcal=userapp-Betterbird-93B4H2.desktop;userapp-Thunderbird-12GII2.desktop;
+x-scheme-handler/webcals=userapp-Betterbird-93B4H2.desktop;userapp-Thunderbird-12GII2.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-CVGHI2.desktop;
+
+[Default Applications]
+application/x-shellscript=sublime_text.desktop;
+text/plain=sublime_text.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-XIOGI2.desktop
+message/rfc822=userapp-Thunderbird-XIOGI2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-XIOGI2.desktop
+x-scheme-handler/webcal=userapp-Thunderbird-12GII2.desktop
+text/calendar=userapp-Thunderbird-12GII2.desktop
+application/x-extension-ics=userapp-Thunderbird-12GII2.desktop
+x-scheme-handler/webcals=userapp-Thunderbird-12GII2.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-CVGHI2.desktop

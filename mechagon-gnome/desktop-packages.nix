@@ -20,27 +20,22 @@
     celluloid
     chromium
     discord
-    filezilla
     firefox
     fragments
     gimp
     gnome.gnome-tweaks
     gnomeExtensions.appindicator
+    gnomeExtensions.caffeine
     gnomeExtensions.dash-to-dock
     gnomeExtensions.paperwm
-    hplip
     inkscape
     meld
-    obs-studio
-    obs-studio-plugins.wlrobs
     ocs-url
     papirus-icon-theme
-    qbittorrent-qt5
     rapid-photo-downloader
     slstatus
     syncthingtray
     telegram-desktop
-    thunderbird
     # tokyo-night-gtk
     trayscale
     variety

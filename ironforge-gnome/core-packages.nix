@@ -52,6 +52,7 @@
     qt6Packages.qtstyleplugin-kvantum
     ripgrep
     #simplescreenrecorder
+    swtpm
     tree
     unzip
     usbutils

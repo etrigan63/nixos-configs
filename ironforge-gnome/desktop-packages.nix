@@ -21,7 +21,6 @@
     celluloid
     chromium
     discord
-    filezilla
     firefox
     fragments
     gimp
@@ -31,7 +30,6 @@
     gnomeExtensions.caffeine
     gnomeExtensions.dash-to-dock
     gnomeExtensions.paperwm
-    hplip
     inkscape
     lensfun
     meld
@@ -44,7 +42,6 @@
     # slstatus
     # syncthingtray
     telegram-desktop
-    thunderbird
     # tokyo-night-gtk
     # trayscale
     # variety

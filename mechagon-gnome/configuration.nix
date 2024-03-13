@@ -222,7 +222,17 @@
   services.flatpak.enable = true;
 
   # Virtualisation
-  virtualisation.vmware.host.enable = true;
+  virtualisation = {
+    vmware = {
+      host.enable = true;
+    };
+    podman = {
+      enable = true;
+      dockerCompat = true;
+      defaultNetwork.settings.dns_enabled = true;
+    };
+  };
+
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 

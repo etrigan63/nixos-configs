@@ -39,6 +39,7 @@
     inxi
     killall
     libnotify
+    libsecret
     libsForQt5.qtstyleplugin-kvantum
     libsForQt5.qt5ct
     libva

@@ -26,9 +26,9 @@
     configurationLimit = 10;
   };
   boot.loader.efi.canTouchEfiVariables = true;
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  #boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.kernelParams = [ "amdgpu.sg_display=0" ];
-  boot.supportedFilesystems = [ "bcachefs" ];
+  #boot.supportedFilesystems = [ "bcachefs" ];
 
   networking.hostName = "mechagon"; # Define your hostname.
   # Pick only one of the below networking options.
@@ -115,7 +115,6 @@
   # Enable CUPS to print documents.
   services.printing = {
     enable = true;
-    drivers = [ pkgs.hplipWithPlugin ];
   };
 
   # Enable sound.
@@ -223,9 +222,9 @@
 
   # Virtualisation
   virtualisation = {
-    vmware = {
-      host.enable = true;
-    };
+    #vmware = {
+    #  host.enable = true;
+    #};
     podman = {
       enable = true;
       dockerCompat = true;

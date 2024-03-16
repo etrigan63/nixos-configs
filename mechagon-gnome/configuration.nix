@@ -4,7 +4,10 @@
 
 { config, lib, pkgs, ... }:
 
-{
+let
+  nixpkgs-unstable = fetchTarball { url="https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz"; };
+  upkgs = (import nixpkgs-unstable {config.allowUnfree = true;});
+in {
   # Allow unfree packages
   nixpkgs.config = {
     allowUnfree =true;
@@ -17,6 +20,7 @@
       ./core-packages.nix
       ./desktop-packages.nix
       ./env-vars.nix
+      {_module.args.upkgs = upkgs;}
       ./unstable.nix
     ];
 
@@ -222,9 +226,9 @@
 
   # Virtualisation
   virtualisation = {
-    #vmware = {
-    #  host.enable = true;
-    #};
+    vmware = {
+      host.enable = true;
+    };
     podman = {
       enable = true;
       dockerCompat = true;

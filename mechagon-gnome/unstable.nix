@@ -26,9 +26,13 @@ in
 
   environment.systemPackages = with pkgs; [
 
+    unstable.appimage-run
     unstable.darktable
     unstable.digikam
+    unstable.distrobox
     unstable.filezilla
+    unstable.kitty
+    unstable.kitty-img
     unstable.obs-studio
     unstable.obs-studio-plugins.wlrobs
     unstable.spotube

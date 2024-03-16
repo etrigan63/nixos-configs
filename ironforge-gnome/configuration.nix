@@ -4,11 +4,16 @@
 
 { config, lib, pkgs, ... }:
 
-{
+
+let
+  nixpkgs-unstable = fetchTarball { url="https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz"; };
+  upkgs = (import nixpkgs-unstable {config.allowUnfree = true;});
+in {
   # Allow unfree packages
   nixpkgs.config = {
     allowUnfree =true;
   };
+
 
   imports =
     [ # Include the results of the hardware scan.
@@ -17,6 +22,7 @@
       ./core-packages.nix
       ./desktop-packages.nix
       ./env-vars.nix
+      {_module.args.upkgs = upkgs;}
       ./unstable.nix
     ];
 
@@ -26,9 +32,9 @@
     configurationLimit = 10;
   };
   boot.loader.efi.canTouchEfiVariables = true;
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  #boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.kernelParams = [ "amdgpu.sg_display=0" ];
-  boot.supportedFilesystems = [ "bcachefs" ];
+  #boot.supportedFilesystems = [ "bcachefs" ];
 
   networking.hostName = "ironforge"; # Define your hostname.
   # Pick only one of the below networking options.
@@ -46,6 +52,7 @@
   fileSystems."/mnt/tank" = {
     device = "kharanos.local:/mnt/tank";
     fsType = "nfs";
+    options = [ "x-systemd.automount" "noauto" ];
   };
 
   # Select internationalisation properties.

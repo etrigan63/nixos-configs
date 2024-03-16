@@ -10,6 +10,7 @@
   environment.systemPackages = with pkgs; [
     amberol
     betterdiscordctl
+    blackbox-terminal
     (catppuccin-gtk.override {
       accents = [ "blue" ]; # You can specify multiple accents here to output multiple themes
       size = "standard";
@@ -41,6 +42,7 @@
     # slstatus
     # syncthingtray
     telegram-desktop
+    thunderbird
     # tokyo-night-gtk
     # trayscale
     # variety

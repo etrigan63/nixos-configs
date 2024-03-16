@@ -2,41 +2,21 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, ... }:
+{ upkgs, ... }:
 
-# never put virtualbox,mlocate in this list
+{ environment.systemPackages = with upkgs; [
 
-let
-  unstableTarball =
-    fetchTarball {
-      url="https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz";
-      };
-in
-
-{
-  # Allow unstable packages
-  nixpkgs.config = {
-    allowUnfree = true;
-    packageOverrides = pkgs: {
-      unstable = import unstableTarball {
-        config = config.nixpkgs.config;
-        };
-      };
-    };
-
-  environment.systemPackages = with pkgs; [
-
-    unstable.darktable
-    unstable.digikam
-    unstable.distrobox
-    unstable.filezilla
-    unstable.ffmpeg-full
-    unstable.insync
-    unstable.kitty
-    unstable.kitty-img
-    unstable.kitty-themes
-    unstable.nextcloud-client
-    unstable.spotube
-    #unstable.wineWowPackages.waylandFull
+    darktable
+    digikam
+    distrobox
+    filezilla
+    ffmpeg-full
+    insync
+    kitty
+    kitty-img
+    kitty-themes
+    nextcloud-client
+    spotube
+    #warp-terminal
    ];
  }  

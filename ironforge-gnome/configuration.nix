@@ -32,7 +32,7 @@ in {
     configurationLimit = 10;
   };
   boot.loader.efi.canTouchEfiVariables = true;
-  #boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.kernelParams = [ "amdgpu.sg_display=0" ];
   #boot.supportedFilesystems = [ "bcachefs" ];
 

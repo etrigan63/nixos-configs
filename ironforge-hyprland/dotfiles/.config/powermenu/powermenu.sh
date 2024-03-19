@@ -98,7 +98,7 @@ case ${chosen} in
         ;;
     $lock)
 		# sudo pacman -S i3lock-fancy-dualmonitors-git
-		~/.config/hypr/scripts/lockscreen
+		hyprlock
         ;;
     $suspend)
 		run_cmd --suspend

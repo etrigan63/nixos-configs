@@ -38,6 +38,7 @@
     libsForQt5.qtstyleplugin-kvantum
     libsForQt5.qt5ct
     libva-utils
+    #linuxKernel.packages.linux_6_8.vmware
     lm_sensors
     lshw
     lunarvim

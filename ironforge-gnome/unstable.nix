@@ -17,6 +17,5 @@
     kitty-themes
     nextcloud-client
     spotube
-    #warp-terminal
    ];
  }  

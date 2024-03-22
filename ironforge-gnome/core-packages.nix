@@ -57,6 +57,7 @@
     tree
     unzip
     usbutils
+    webkitgtk
     wget
     wireplumber
     #xorg.xkill

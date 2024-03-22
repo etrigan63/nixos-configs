@@ -8,14 +8,12 @@
 
     darktable
     digikam
-    distrobox
     filezilla
     ffmpeg-full
+    gnomeExtensions.paperwm
     insync
-    kitty
-    kitty-img
-    kitty-themes
     nextcloud-client
     spotube
+    warp-terminal
    ];
  }  

@@ -24,6 +24,7 @@ in {
       ./env-vars.nix
       {_module.args.upkgs = upkgs;}
       ./unstable.nix
+      #./source-packages.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -234,11 +235,6 @@ in {
   virtualisation = {
     vmware = {
       host.enable = true;
-    };
-    podman = {
-      enable = true;
-      dockerCompat = true;
-      defaultNetwork.settings.dns_enabled = true;
     };
   };
 

@@ -37,6 +37,7 @@
     ocs-url
     papirus-icon-theme
     popsicle
+    qownnotes
     rapid-photo-downloader
     # slstatus
     # syncthingtray

@@ -55,6 +55,7 @@
     python3
     python311Packages.sparklines
     qt6Packages.qtstyleplugin-kvantum
+    rclone
     ripgrep
     #simplescreenrecorder
     tree

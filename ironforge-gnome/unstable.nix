@@ -10,10 +10,10 @@
     digikam
     filezilla
     ffmpeg-full
+    gnomeExtensions.logo-menu
     gnomeExtensions.paperwm
     insync
     nextcloud-client
     spotube
-    warp-terminal
    ];
  }  

@@ -10,10 +10,8 @@
 
     darktable
     digikam
-    distrobox
     filezilla
-    kitty
-    kitty-img
+    nextcloud-client
     obs-studio
     obs-studio-plugins.wlrobs
     spotube

@@ -233,11 +233,11 @@ in {
     vmware = {
       host.enable = true;
     };
-    podman = {
-      enable = true;
-      dockerCompat = true;
-      defaultNetwork.settings.dns_enabled = true;
-    };
+  #  podman = {
+  #    enable = true;
+  #    dockerCompat = true;
+  #    defaultNetwork.settings.dns_enabled = true;
+  #  };
   };
 
   # Enable the OpenSSH daemon.

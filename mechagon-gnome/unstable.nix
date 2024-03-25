@@ -11,6 +11,9 @@
     darktable
     digikam
     filezilla
+    gnomeExtensions.logo-menu
+    gnomeExtensions.paperwm
+    insync
     nextcloud-client
     obs-studio
     obs-studio-plugins.wlrobs

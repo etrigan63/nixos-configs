@@ -29,7 +29,6 @@
     gnomeExtensions.dash-to-dock
     gnomeExtensions.paperwm
     inkscape
-    insync
     meld
     ocs-url
     papirus-icon-theme

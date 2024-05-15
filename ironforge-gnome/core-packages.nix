@@ -11,9 +11,10 @@
     avahi
     bat
     bibata-cursors
-    bottom
+    btop
     cava
     curl
+    dconf
     desktop-file-utils
     duf
     edid-decode

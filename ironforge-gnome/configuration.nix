@@ -100,6 +100,7 @@ in {
     iagno
     hitori
     atomix
+    simple-scan
   ]);
   
   # Fonts
@@ -123,6 +124,12 @@ in {
     enable = true;
     #drivers = [ pkgs.hplipWithPlugin ];
   };
+  # Enable SANE for scanners
+  hardware.sane = {
+    enable = true;
+    extraBackends = [ pkgs.utsushi ];
+    };
+  services.udev.packages = [ pkgs.utsushi ];
 
   # Enable sound.
   sound.enable = true;
@@ -147,7 +154,7 @@ in {
     isNormalUser = true;
     description = "Carlos Echenique";
     shell = pkgs.fish;
-    extraGroups = [ "wheel" "networkmanager" "libvirtd" "mlocate" ]; # Enable ‘sudo’ for the user.
+    extraGroups = [ "wheel" "networkmanager" "libvirtd" "mlocate" "scanner" "lp" ]; # Enable ‘sudo’ for the user.
     # packages = with pkgs; [
     #
     #];

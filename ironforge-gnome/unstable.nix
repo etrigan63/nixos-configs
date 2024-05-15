@@ -8,12 +8,16 @@
 
     darktable
     digikam
+    exiftool
     filezilla
     ffmpeg-full
+    fractal
     gnomeExtensions.logo-menu
     gnomeExtensions.paperwm
     insync
+    localsend
     nextcloud-client
+    ptyxis
     spotube
    ];
  }  

@@ -9,7 +9,7 @@
     EDITOR = "lvim";
     VISUAL = "lvim";
     BROWSER = "firefox";
-    QT_QPA_PLATFORM = "xcb";
+    QT_QPA_PLATFORM = "wayland";
     #QT_QPA_PLATFORMTHEME = lib.mkForce "qt5ct";
   };
 

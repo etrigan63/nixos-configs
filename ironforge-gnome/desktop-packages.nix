@@ -11,13 +11,17 @@
     amberol
     betterdiscordctl
     blackbox-terminal
+    (catppuccin.override {
+       accent = "blue";
+       variant = "mocha";
+       themeList = [ "bat" "btop" "kvantum" ];
+    })
     (catppuccin-gtk.override {
       accents = [ "blue" ]; # You can specify multiple accents here to output multiple themes
       size = "standard";
       tweaks = [ "normal" ]; # You can also specify multiple tweaks here
       variant = "mocha";
     })
-    catppuccin-kvantum
     celluloid
     chromium
     discord
@@ -25,11 +29,11 @@
     fragments
     gimp
     gimpPlugins.gimplensfun
+    gnome.dconf-editor
     gnome.gnome-tweaks
     gnomeExtensions.appindicator
     gnomeExtensions.caffeine
     gnomeExtensions.dash-to-dock
-    inkscape
     lensfun
     meld
     obs-studio
@@ -39,14 +43,11 @@
     popsicle
     qownnotes
     rapid-photo-downloader
-    # slstatus
-    # syncthingtray
     telegram-desktop
     thunderbird
-    # tokyo-night-gtk
-    # trayscale
     # variety
     ventoy
+    #wavebox
     wl-clipboard
     yt-dlp
 ];

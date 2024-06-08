@@ -8,9 +8,10 @@
 
 {
   environment.systemPackages = with pkgs; [
+    adw-gtk3
     amberol
     betterdiscordctl
-    blackbox-terminal
+    # blackbox-terminal
     (catppuccin.override {
        accent = "blue";
        variant = "mocha";
@@ -24,8 +25,14 @@
     })
     celluloid
     chromium
+    darktable
+    digikam
     discord
+    exiftool
+    ffmpeg_7-full
+    filezilla
     firefox
+    fractal
     fragments
     gimp
     gimpPlugins.gimplensfun
@@ -34,20 +41,29 @@
     gnomeExtensions.appindicator
     gnomeExtensions.caffeine
     gnomeExtensions.dash-to-dock
+    gnomeExtensions.logo-menu
+    gradience
+    insync
+    insync-nautilus
     lensfun
+    localsend
     meld
+    nextcloud-client
     obs-studio
     obs-studio-plugins.wlrobs
     ocs-url
+    orca-slicer
     papirus-icon-theme
     popsicle
     qownnotes
     rapid-photo-downloader
+    spotube
     telegram-desktop
     thunderbird
     # variety
     ventoy
-    #wavebox
+    # wavebox
+    wezterm
     wl-clipboard
     yt-dlp
 ];

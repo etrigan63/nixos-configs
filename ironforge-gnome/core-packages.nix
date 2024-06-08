@@ -28,6 +28,7 @@
     gitui
     glib
     gnumake
+    gtop
     #hack-font
     hblock
     hw-probe
@@ -45,6 +46,7 @@
     lunarvim
     most
     nixos-generators
+    nmap
     (nnn.override { withNerdIcons = true; })
     nvme-cli
     ookla-speedtest

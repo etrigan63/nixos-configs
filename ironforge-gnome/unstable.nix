@@ -6,18 +6,17 @@
 
 { environment.systemPackages = with upkgs; [
 
-    darktable
-    digikam
-    exiftool
-    filezilla
-    ffmpeg-full
-    fractal
-    gnomeExtensions.logo-menu
-    gnomeExtensions.paperwm
-    insync
-    localsend
-    nextcloud-client
-    ptyxis
-    spotube
+    #adw-gtk3
+    #darktable
+    #digikam
+    #exiftool
+    #filezilla
+    #ffmpeg-full
+    #fractal
+    #gnomeExtensions.logo-menu
+    #insync
+    #localsend
+    #nextcloud-client
+    #spotube
    ];
  }  

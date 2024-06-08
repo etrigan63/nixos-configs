@@ -10,6 +10,7 @@
     VISUAL = "lvim";
     BROWSER = "firefox";
     QT_QPA_PLATFORM = "wayland";
+    XCURSOR_THEME = "Bibata-Modern-Ice";
     #QT_QPA_PLATFORMTHEME = lib.mkForce "qt5ct";
   };
 

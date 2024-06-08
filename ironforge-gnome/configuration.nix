@@ -33,7 +33,7 @@ in {
     configurationLimit = 10;
   };
   boot.loader.efi.canTouchEfiVariables = true;
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  #boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.kernelParams = [ "amdgpu.sg_display=0" ];
   #boot.supportedFilesystems = [ "bcachefs" ];
 
@@ -88,11 +88,11 @@ in {
   # Exclude some gnome packages
   environment.gnome.excludePackages = (with pkgs; [
     gnome-tour
+    gedit
   ]) ++ (with pkgs.gnome; [
     gnome-calendar
     gnome-music
     gnome-terminal
-    gedit
     epiphany
     geary
     totem
@@ -185,8 +185,8 @@ in {
   # Avahi zeroconf services
   services.avahi = {
     enable = true;
-    nssmdns = true;
-    # nssmdns4 = true;
+    # nssmdns = true;
+    nssmdns4 = true;
     ipv4 = true;
     ipv6 = true;
     openFirewall = true;
@@ -239,11 +239,11 @@ in {
   services.flatpak.enable = true;
 
   # Virtualisation
-  virtualisation = {
-    vmware = {
-      host.enable = true;
-    };
-  };
+  #virtualisation = {
+  #  vmware = {
+  #    host.enable = true;
+  #  };
+  #};
 
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;

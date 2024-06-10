@@ -1,0 +1,19 @@
+{
+    "author": "Simon Launay",
+    "authorURL": "https://unsplash.com/@simonlaunay?utm_source=Variety+Wallpaper+Changer&utm_medium=referral",
+    "description": "the Controller",
+    "extraData": {
+        "unsplashDownloadLocation": "https://api.unsplash.com/photos/lHVpa2WUb9k/download?ixid=M3wxMjIxfDB8MXxyYW5kb218fHx8fHx8fHwxNzE3OTA1MDIwfA",
+        "unsplashDownloadReported": false
+    },
+    "imageURL": "https://images.unsplash.com/photo-1507730756279-dc621038850f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxMjIxfDB8MXxyYW5kb218fHx8fHx8fHwxNzE3OTA1MDIwfA&ixlib=rb-4.0.3&q=85&w=2707",
+    "keywords": [
+        "business-work",
+        "street-photography"
+    ],
+    "sfwRating": 100,
+    "sourceLocation": "https://unsplash.com",
+    "sourceName": "Unsplash.com",
+    "sourceType": "unsplash",
+    "sourceURL": "https://unsplash.com/photos/pilot-sitting-to-opened-window-lHVpa2WUb9k?utm_source=Variety+Wallpaper+Changer&utm_medium=referral"
+}

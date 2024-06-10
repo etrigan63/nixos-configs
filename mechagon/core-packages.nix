@@ -21,7 +21,7 @@
     betterdiscordctl
     bibata-cursors
     blueberry
-    bottom
+    btop
     #chromium
     curl
     desktop-file-utils
@@ -71,11 +71,11 @@
     (nnn.override { withNerdIcons = true; })
     nodejs
     nodePackages_latest.npm
-    nomacs
     ocl-icd
     obs-studio
     ookla-speedtest
     qbittorrent-qt5
+    popsicle
     procps
     python3
     python311Packages.pynvim
@@ -83,24 +83,24 @@
     rapid-photo-downloader
     ripgrep
     scrot
-    sddm-chili-theme
     #simplescreenrecorder
     spotify
     telegram-desktop
-    thunderbird
+    #thunderbird
     tree
     unzip
     variety
-    vimPlugins.nvchad
+    ventoy-full
+    #vimPlugins.nvchad
     vlc
     volumeicon
     #vscode
     wget
     widevine-cdm
-    xorg.xkill
+    xcur2png
     zig
-    zsh
-    zsh-completions
-    zsh-syntax-highlighting
+    #zsh
+    #zsh-completions
+    #zsh-syntax-highlighting
   ];
 }

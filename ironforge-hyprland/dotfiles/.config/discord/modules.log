@@ -1,0 +1,632 @@
+2024-06-09T15:06:09.339Z [Modules] Modules initializing
+2024-06-09T15:06:09.339Z [Modules] Distribution: remote
+2024-06-09T15:06:09.339Z [Modules] Host updates: disabled
+2024-06-09T15:06:09.339Z [Modules] Module updates: enabled
+2024-06-09T15:06:09.340Z [Modules] Module install path: /home/guru/.config/discord/0.0.54/modules
+2024-06-09T15:06:09.340Z [Modules] Module installed file path: /home/guru/.config/discord/0.0.54/modules/installed.json
+2024-06-09T15:06:09.340Z [Modules] Module download path: /home/guru/.config/discord/0.0.54/modules/pending
+2024-06-09T15:06:09.546Z [Modules] Bootstrapping...
+2024-06-09T15:06:09.546Z [Modules] Installing discord_desktop_core@0 from /nix/store/s7bmbx9y6mv825kdkl6kz0kzs665zhsv-discord-0.0.54/opt/Discord/resources/bootstrap/discord_desktop_core.zip
+2024-06-09T15:06:09.551Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/nix/store/s7bmbx9y6mv825kdkl6kz0kzs665zhsv-discord-0.0.54/opt/Discord/resources/bootstrap/discord_desktop_core.zip'
+2024-06-09T15:06:09.552Z [Modules] Installing discord_erlpack@0 from /nix/store/s7bmbx9y6mv825kdkl6kz0kzs665zhsv-discord-0.0.54/opt/Discord/resources/bootstrap/discord_erlpack.zip
+2024-06-09T15:06:09.555Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/nix/store/s7bmbx9y6mv825kdkl6kz0kzs665zhsv-discord-0.0.54/opt/Discord/resources/bootstrap/discord_erlpack.zip'
+2024-06-09T15:06:09.555Z [Modules] Installing discord_spellcheck@0 from /nix/store/s7bmbx9y6mv825kdkl6kz0kzs665zhsv-discord-0.0.54/opt/Discord/resources/bootstrap/discord_spellcheck.zip
+2024-06-09T15:06:09.556Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/nix/store/s7bmbx9y6mv825kdkl6kz0kzs665zhsv-discord-0.0.54/opt/Discord/resources/bootstrap/discord_spellcheck.zip'
+2024-06-09T15:06:09.556Z [Modules] Installing discord_utils@0 from /nix/store/s7bmbx9y6mv825kdkl6kz0kzs665zhsv-discord-0.0.54/opt/Discord/resources/bootstrap/discord_utils.zip
+2024-06-09T15:06:09.556Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/nix/store/s7bmbx9y6mv825kdkl6kz0kzs665zhsv-discord-0.0.54/opt/Discord/resources/bootstrap/discord_utils.zip'
+2024-06-09T15:06:09.557Z [Modules] Installing discord_voice@0 from /nix/store/s7bmbx9y6mv825kdkl6kz0kzs665zhsv-discord-0.0.54/opt/Discord/resources/bootstrap/discord_voice.zip
+2024-06-09T15:06:09.557Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/nix/store/s7bmbx9y6mv825kdkl6kz0kzs665zhsv-discord-0.0.54/opt/Discord/resources/bootstrap/discord_voice.zip'
+2024-06-09T15:06:09.557Z [Modules] Installing discord_zstd@0 from /nix/store/s7bmbx9y6mv825kdkl6kz0kzs665zhsv-discord-0.0.54/opt/Discord/resources/bootstrap/discord_zstd.zip
+2024-06-09T15:06:09.558Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/nix/store/s7bmbx9y6mv825kdkl6kz0kzs665zhsv-discord-0.0.54/opt/Discord/resources/bootstrap/discord_zstd.zip'
+2024-06-09T15:06:09.558Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-06-09T15:06:09.558Z [Modules] Host is up to date.
+2024-06-09T15:06:09.558Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-06-09T15:06:09.765Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-06-09T15:06:09.765Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-06-09T15:06:09.765Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-06-09T15:06:09.765Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-06-09T15:06:09.765Z [Modules] Module update available: discord_voice@3 [installed: 0]
+2024-06-09T15:06:09.765Z [Modules] Module update available: discord_zstd@1 [installed: 0]
+2024-06-09T15:06:09.765Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-06-09T15:06:09.765Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip
+2024-06-09T15:06:14.959Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 2%
+2024-06-09T15:06:14.967Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 5%
+2024-06-09T15:06:14.972Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 8%
+2024-06-09T15:06:14.977Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 10%
+2024-06-09T15:06:14.979Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 11%
+2024-06-09T15:06:14.983Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 14%
+2024-06-09T15:06:14.986Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 15%
+2024-06-09T15:06:14.989Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 17%
+2024-06-09T15:06:14.994Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 19%
+2024-06-09T15:06:14.996Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 20%
+2024-06-09T15:06:14.998Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 21%
+2024-06-09T15:06:15.022Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 22%
+2024-06-09T15:06:15.026Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 25%
+2024-06-09T15:06:15.031Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 26%
+2024-06-09T15:06:15.084Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 29%
+2024-06-09T15:06:15.085Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 33%
+2024-06-09T15:06:15.086Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 39%
+2024-06-09T15:06:15.086Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 45%
+2024-06-09T15:06:15.087Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 54%
+2024-06-09T15:06:15.114Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 55%
+2024-06-09T15:06:15.135Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 57%
+2024-06-09T15:06:15.138Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 58%
+2024-06-09T15:06:15.140Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 61%
+2024-06-09T15:06:15.141Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 65%
+2024-06-09T15:06:15.142Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 71%
+2024-06-09T15:06:15.142Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 79%
+2024-06-09T15:06:15.142Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 93%
+2024-06-09T15:06:15.146Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 94%
+2024-06-09T15:06:15.146Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 98%
+2024-06-09T15:06:15.147Z [Modules] Streaming discord_desktop_core@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip: 100%
+2024-06-09T15:06:15.148Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-06-09T15:06:15.148Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip
+2024-06-09T15:06:15.265Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 2%
+2024-06-09T15:06:15.267Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 3%
+2024-06-09T15:06:15.272Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 6%
+2024-06-09T15:06:15.273Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 7%
+2024-06-09T15:06:15.275Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 8%
+2024-06-09T15:06:15.276Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 9%
+2024-06-09T15:06:15.280Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 10%
+2024-06-09T15:06:15.303Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 13%
+2024-06-09T15:06:15.306Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 15%
+2024-06-09T15:06:15.317Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 18%
+2024-06-09T15:06:15.319Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 21%
+2024-06-09T15:06:15.320Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 24%
+2024-06-09T15:06:15.320Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 29%
+2024-06-09T15:06:15.320Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 35%
+2024-06-09T15:06:15.322Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 36%
+2024-06-09T15:06:15.326Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 38%
+2024-06-09T15:06:15.327Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 39%
+2024-06-09T15:06:15.328Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 40%
+2024-06-09T15:06:15.330Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 41%
+2024-06-09T15:06:15.355Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 44%
+2024-06-09T15:06:15.355Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 48%
+2024-06-09T15:06:15.356Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 53%
+2024-06-09T15:06:15.374Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 54%
+2024-06-09T15:06:15.382Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 58%
+2024-06-09T15:06:15.382Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 60%
+2024-06-09T15:06:15.384Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 61%
+2024-06-09T15:06:15.386Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 62%
+2024-06-09T15:06:15.411Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 63%
+2024-06-09T15:06:15.414Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 66%
+2024-06-09T15:06:15.414Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 77%
+2024-06-09T15:06:15.426Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 78%
+2024-06-09T15:06:15.432Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 81%
+2024-06-09T15:06:15.433Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 97%
+2024-06-09T15:06:15.435Z [Modules] Streaming discord_erlpack@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip: 100%
+2024-06-09T15:06:15.435Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-06-09T15:06:15.436Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip
+2024-06-09T15:06:15.569Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 1%
+2024-06-09T15:06:15.579Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 2%
+2024-06-09T15:06:15.609Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 3%
+2024-06-09T15:06:15.624Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 4%
+2024-06-09T15:06:15.625Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 7%
+2024-06-09T15:06:15.632Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 8%
+2024-06-09T15:06:15.665Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 9%
+2024-06-09T15:06:15.672Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 10%
+2024-06-09T15:06:15.677Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 11%
+2024-06-09T15:06:15.678Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 13%
+2024-06-09T15:06:15.686Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 14%
+2024-06-09T15:06:15.715Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 15%
+2024-06-09T15:06:15.727Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 16%
+2024-06-09T15:06:15.736Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 17%
+2024-06-09T15:06:15.737Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 18%
+2024-06-09T15:06:15.738Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 20%
+2024-06-09T15:06:15.848Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 21%
+2024-06-09T15:06:15.849Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 22%
+2024-06-09T15:06:15.859Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 23%
+2024-06-09T15:06:15.861Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 26%
+2024-06-09T15:06:15.875Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 27%
+2024-06-09T15:06:15.876Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 28%
+2024-06-09T15:06:15.880Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 29%
+2024-06-09T15:06:15.880Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 32%
+2024-06-09T15:06:15.882Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 33%
+2024-06-09T15:06:15.888Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 34%
+2024-06-09T15:06:15.898Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 35%
+2024-06-09T15:06:15.902Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 36%
+2024-06-09T15:06:15.934Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 37%
+2024-06-09T15:06:15.935Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 38%
+2024-06-09T15:06:15.936Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 39%
+2024-06-09T15:06:15.939Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 40%
+2024-06-09T15:06:15.949Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 41%
+2024-06-09T15:06:15.956Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 42%
+2024-06-09T15:06:15.967Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 43%
+2024-06-09T15:06:15.976Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 44%
+2024-06-09T15:06:15.983Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 45%
+2024-06-09T15:06:15.993Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 46%
+2024-06-09T15:06:16.001Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 47%
+2024-06-09T15:06:16.011Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 48%
+2024-06-09T15:06:16.019Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 49%
+2024-06-09T15:06:16.030Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 50%
+2024-06-09T15:06:16.037Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 51%
+2024-06-09T15:06:16.049Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 52%
+2024-06-09T15:06:16.056Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 53%
+2024-06-09T15:06:16.062Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 54%
+2024-06-09T15:06:16.072Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 55%
+2024-06-09T15:06:16.081Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 56%
+2024-06-09T15:06:16.091Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 57%
+2024-06-09T15:06:16.100Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 58%
+2024-06-09T15:06:16.107Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 59%
+2024-06-09T15:06:16.115Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 60%
+2024-06-09T15:06:16.128Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 61%
+2024-06-09T15:06:16.133Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 62%
+2024-06-09T15:06:16.142Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 63%
+2024-06-09T15:06:16.150Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 64%
+2024-06-09T15:06:16.161Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 65%
+2024-06-09T15:06:16.168Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 66%
+2024-06-09T15:06:16.176Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 67%
+2024-06-09T15:06:16.185Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 68%
+2024-06-09T15:06:16.196Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 69%
+2024-06-09T15:06:16.204Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 70%
+2024-06-09T15:06:16.214Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 71%
+2024-06-09T15:06:16.222Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 72%
+2024-06-09T15:06:16.238Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 73%
+2024-06-09T15:06:16.240Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 74%
+2024-06-09T15:06:16.248Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 75%
+2024-06-09T15:06:16.256Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 76%
+2024-06-09T15:06:16.267Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 77%
+2024-06-09T15:06:16.273Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 78%
+2024-06-09T15:06:16.282Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 79%
+2024-06-09T15:06:16.290Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 80%
+2024-06-09T15:06:16.298Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 81%
+2024-06-09T15:06:16.311Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 82%
+2024-06-09T15:06:16.317Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 83%
+2024-06-09T15:06:16.329Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 84%
+2024-06-09T15:06:16.335Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 85%
+2024-06-09T15:06:16.343Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 86%
+2024-06-09T15:06:16.351Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 87%
+2024-06-09T15:06:16.363Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 88%
+2024-06-09T15:06:16.370Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 89%
+2024-06-09T15:06:16.379Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 90%
+2024-06-09T15:06:16.387Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 91%
+2024-06-09T15:06:16.396Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 92%
+2024-06-09T15:06:16.421Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 93%
+2024-06-09T15:06:16.425Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 94%
+2024-06-09T15:06:16.439Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 95%
+2024-06-09T15:06:16.439Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 96%
+2024-06-09T15:06:16.440Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 97%
+2024-06-09T15:06:16.448Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 98%
+2024-06-09T15:06:16.458Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 99%
+2024-06-09T15:06:16.464Z [Modules] Streaming discord_spellcheck@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip: 100%
+2024-06-09T15:06:16.465Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-06-09T15:06:16.465Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip
+2024-06-09T15:06:16.607Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 1%
+2024-06-09T15:06:16.609Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 2%
+2024-06-09T15:06:16.613Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 3%
+2024-06-09T15:06:16.616Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 4%
+2024-06-09T15:06:16.619Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 5%
+2024-06-09T15:06:16.622Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 6%
+2024-06-09T15:06:16.623Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 7%
+2024-06-09T15:06:16.628Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 8%
+2024-06-09T15:06:16.630Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 9%
+2024-06-09T15:06:16.632Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 10%
+2024-06-09T15:06:16.635Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 11%
+2024-06-09T15:06:16.640Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 13%
+2024-06-09T15:06:16.645Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 15%
+2024-06-09T15:06:16.649Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 17%
+2024-06-09T15:06:16.653Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 18%
+2024-06-09T15:06:16.657Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 19%
+2024-06-09T15:06:16.659Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 20%
+2024-06-09T15:06:16.665Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 22%
+2024-06-09T15:06:16.668Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 23%
+2024-06-09T15:06:16.673Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 25%
+2024-06-09T15:06:16.677Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 26%
+2024-06-09T15:06:16.680Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 28%
+2024-06-09T15:06:16.683Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 29%
+2024-06-09T15:06:16.685Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 30%
+2024-06-09T15:06:16.690Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 31%
+2024-06-09T15:06:16.692Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 32%
+2024-06-09T15:06:16.694Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 33%
+2024-06-09T15:06:16.697Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 34%
+2024-06-09T15:06:16.700Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 35%
+2024-06-09T15:06:16.702Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 36%
+2024-06-09T15:06:16.708Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 38%
+2024-06-09T15:06:16.716Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 41%
+2024-06-09T15:06:16.719Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 42%
+2024-06-09T15:06:16.721Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 43%
+2024-06-09T15:06:16.725Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 44%
+2024-06-09T15:06:16.727Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 45%
+2024-06-09T15:06:16.731Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 46%
+2024-06-09T15:06:16.733Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 47%
+2024-06-09T15:06:16.738Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 49%
+2024-06-09T15:06:16.744Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 51%
+2024-06-09T15:06:16.749Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 52%
+2024-06-09T15:06:16.753Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 54%
+2024-06-09T15:06:16.754Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 55%
+2024-06-09T15:06:16.759Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 57%
+2024-06-09T15:06:16.763Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 58%
+2024-06-09T15:06:16.765Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 59%
+2024-06-09T15:06:16.771Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 61%
+2024-06-09T15:06:16.775Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 62%
+2024-06-09T15:06:16.778Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 63%
+2024-06-09T15:06:16.779Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 64%
+2024-06-09T15:06:16.785Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 66%
+2024-06-09T15:06:16.788Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 67%
+2024-06-09T15:06:16.790Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 68%
+2024-06-09T15:06:16.792Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 69%
+2024-06-09T15:06:16.798Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 71%
+2024-06-09T15:06:16.801Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 72%
+2024-06-09T15:06:16.803Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 73%
+2024-06-09T15:06:16.811Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 75%
+2024-06-09T15:06:16.815Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 77%
+2024-06-09T15:06:16.818Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 78%
+2024-06-09T15:06:16.825Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 80%
+2024-06-09T15:06:16.826Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 81%
+2024-06-09T15:06:16.828Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 82%
+2024-06-09T15:06:16.832Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 83%
+2024-06-09T15:06:16.833Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 84%
+2024-06-09T15:06:16.836Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 85%
+2024-06-09T15:06:16.838Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 86%
+2024-06-09T15:06:16.842Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 87%
+2024-06-09T15:06:16.853Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 89%
+2024-06-09T15:06:16.854Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 90%
+2024-06-09T15:06:16.855Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 92%
+2024-06-09T15:06:16.858Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 93%
+2024-06-09T15:06:16.864Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 95%
+2024-06-09T15:06:16.865Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 96%
+2024-06-09T15:06:16.869Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 97%
+2024-06-09T15:06:16.874Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 99%
+2024-06-09T15:06:16.876Z [Modules] Streaming discord_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip: 100%
+2024-06-09T15:06:16.877Z [Modules] Fetching discord_voice@3 from https://discord.com/api/modules/stable/discord_voice/3
+2024-06-09T15:06:16.877Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip
+2024-06-09T15:06:17.041Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 1%
+2024-06-09T15:06:17.060Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 2%
+2024-06-09T15:06:17.080Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 3%
+2024-06-09T15:06:17.099Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 4%
+2024-06-09T15:06:17.120Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 5%
+2024-06-09T15:06:17.140Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 6%
+2024-06-09T15:06:17.162Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 7%
+2024-06-09T15:06:17.180Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 8%
+2024-06-09T15:06:17.199Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 9%
+2024-06-09T15:06:17.222Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 10%
+2024-06-09T15:06:17.240Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 11%
+2024-06-09T15:06:17.263Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 12%
+2024-06-09T15:06:17.281Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 13%
+2024-06-09T15:06:17.301Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 14%
+2024-06-09T15:06:17.323Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 15%
+2024-06-09T15:06:17.341Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 16%
+2024-06-09T15:06:17.403Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 17%
+2024-06-09T15:06:17.409Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 18%
+2024-06-09T15:06:17.430Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 19%
+2024-06-09T15:06:17.452Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 20%
+2024-06-09T15:06:17.473Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 21%
+2024-06-09T15:06:17.492Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 22%
+2024-06-09T15:06:17.516Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 23%
+2024-06-09T15:06:17.535Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 24%
+2024-06-09T15:06:17.555Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 25%
+2024-06-09T15:06:17.573Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 26%
+2024-06-09T15:06:17.594Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 27%
+2024-06-09T15:06:17.614Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 28%
+2024-06-09T15:06:17.651Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 29%
+2024-06-09T15:06:17.654Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 30%
+2024-06-09T15:06:17.675Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 31%
+2024-06-09T15:06:17.697Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 32%
+2024-06-09T15:06:17.728Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 33%
+2024-06-09T15:06:17.734Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 34%
+2024-06-09T15:06:17.757Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 35%
+2024-06-09T15:06:17.776Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 36%
+2024-06-09T15:06:17.797Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 37%
+2024-06-09T15:06:17.815Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 38%
+2024-06-09T15:06:17.836Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 39%
+2024-06-09T15:06:17.856Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 40%
+2024-06-09T15:06:17.878Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 41%
+2024-06-09T15:06:17.899Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 42%
+2024-06-09T15:06:17.917Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 43%
+2024-06-09T15:06:17.940Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 44%
+2024-06-09T15:06:17.959Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 45%
+2024-06-09T15:06:17.981Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 46%
+2024-06-09T15:06:18.000Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 47%
+2024-06-09T15:06:18.021Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 48%
+2024-06-09T15:06:18.039Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 49%
+2024-06-09T15:06:18.075Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 50%
+2024-06-09T15:06:18.102Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 51%
+2024-06-09T15:06:18.103Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 52%
+2024-06-09T15:06:18.120Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 53%
+2024-06-09T15:06:18.140Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 54%
+2024-06-09T15:06:18.176Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 55%
+2024-06-09T15:06:18.182Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 56%
+2024-06-09T15:06:18.201Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 57%
+2024-06-09T15:06:18.223Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 58%
+2024-06-09T15:06:18.257Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 59%
+2024-06-09T15:06:18.264Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 60%
+2024-06-09T15:06:18.284Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 61%
+2024-06-09T15:06:18.303Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 62%
+2024-06-09T15:06:18.323Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 63%
+2024-06-09T15:06:18.343Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 64%
+2024-06-09T15:06:18.400Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 65%
+2024-06-09T15:06:18.412Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 66%
+2024-06-09T15:06:18.430Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 67%
+2024-06-09T15:06:18.454Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 68%
+2024-06-09T15:06:18.475Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 69%
+2024-06-09T15:06:18.492Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 70%
+2024-06-09T15:06:18.513Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 71%
+2024-06-09T15:06:18.536Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 72%
+2024-06-09T15:06:18.552Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 73%
+2024-06-09T15:06:18.572Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 74%
+2024-06-09T15:06:18.595Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 75%
+2024-06-09T15:06:18.612Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 76%
+2024-06-09T15:06:18.633Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 77%
+2024-06-09T15:06:18.655Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 78%
+2024-06-09T15:06:18.676Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 79%
+2024-06-09T15:06:18.704Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 80%
+2024-06-09T15:06:18.718Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 81%
+2024-06-09T15:06:18.741Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 82%
+2024-06-09T15:06:18.761Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 83%
+2024-06-09T15:06:18.780Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 84%
+2024-06-09T15:06:18.799Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 85%
+2024-06-09T15:06:18.819Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 86%
+2024-06-09T15:06:18.840Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 87%
+2024-06-09T15:06:18.859Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 88%
+2024-06-09T15:06:18.879Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 89%
+2024-06-09T15:06:18.911Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 90%
+2024-06-09T15:06:18.920Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 91%
+2024-06-09T15:06:18.941Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 92%
+2024-06-09T15:06:18.959Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 93%
+2024-06-09T15:06:18.981Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 94%
+2024-06-09T15:06:19.015Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 95%
+2024-06-09T15:06:19.025Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 96%
+2024-06-09T15:06:19.045Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 97%
+2024-06-09T15:06:19.067Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 98%
+2024-06-09T15:06:19.088Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 99%
+2024-06-09T15:06:19.109Z [Modules] Streaming discord_voice@3 to /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip: 100%
+2024-06-09T15:06:19.111Z [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2024-06-09T15:06:19.111Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip
+2024-06-09T15:06:19.258Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 2%
+2024-06-09T15:06:19.260Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 3%
+2024-06-09T15:06:19.261Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 5%
+2024-06-09T15:06:19.265Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 8%
+2024-06-09T15:06:19.267Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 10%
+2024-06-09T15:06:19.269Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 11%
+2024-06-09T15:06:19.272Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 12%
+2024-06-09T15:06:19.275Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 16%
+2024-06-09T15:06:19.277Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 17%
+2024-06-09T15:06:19.278Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 19%
+2024-06-09T15:06:19.279Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 20%
+2024-06-09T15:06:19.281Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 21%
+2024-06-09T15:06:19.284Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 24%
+2024-06-09T15:06:19.287Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 25%
+2024-06-09T15:06:19.289Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 27%
+2024-06-09T15:06:19.292Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 30%
+2024-06-09T15:06:19.294Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 33%
+2024-06-09T15:06:19.296Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 34%
+2024-06-09T15:06:19.297Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 35%
+2024-06-09T15:06:19.298Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 36%
+2024-06-09T15:06:19.300Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 38%
+2024-06-09T15:06:19.311Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 43%
+2024-06-09T15:06:19.312Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 48%
+2024-06-09T15:06:19.314Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 50%
+2024-06-09T15:06:19.316Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 52%
+2024-06-09T15:06:19.320Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 55%
+2024-06-09T15:06:19.322Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 58%
+2024-06-09T15:06:19.323Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 59%
+2024-06-09T15:06:19.325Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 61%
+2024-06-09T15:06:19.326Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 62%
+2024-06-09T15:06:19.328Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 63%
+2024-06-09T15:06:19.331Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 66%
+2024-06-09T15:06:19.332Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 67%
+2024-06-09T15:06:19.337Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 71%
+2024-06-09T15:06:19.338Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 72%
+2024-06-09T15:06:19.339Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 73%
+2024-06-09T15:06:19.341Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 75%
+2024-06-09T15:06:19.344Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 77%
+2024-06-09T15:06:19.348Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 81%
+2024-06-09T15:06:19.350Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 82%
+2024-06-09T15:06:19.354Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 86%
+2024-06-09T15:06:19.358Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 90%
+2024-06-09T15:06:19.361Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 92%
+2024-06-09T15:06:19.363Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 95%
+2024-06-09T15:06:19.367Z [Modules] Streaming discord_zstd@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip: 100%
+2024-06-09T15:06:19.368Z [Modules] Finished module downloads. [success: 6] [failure: 0]
+2024-06-09T15:06:19.369Z [Modules] Installing updates...
+2024-06-09T15:06:19.369Z [Modules] Installing discord_desktop_core@1 from /home/guru/.config/discord/0.0.54/modules/pending/discord_desktop_core-1.zip
+2024-06-09T15:06:19.423Z [Modules] Installing discord_erlpack@1 from /home/guru/.config/discord/0.0.54/modules/pending/discord_erlpack-1.zip
+2024-06-09T15:06:19.460Z [Modules] Installing discord_spellcheck@1 from /home/guru/.config/discord/0.0.54/modules/pending/discord_spellcheck-1.zip
+2024-06-09T15:06:19.856Z [Modules] Installing discord_utils@1 from /home/guru/.config/discord/0.0.54/modules/pending/discord_utils-1.zip
+2024-06-09T15:06:19.923Z [Modules] Installing discord_voice@3 from /home/guru/.config/discord/0.0.54/modules/pending/discord_voice-3.zip
+2024-06-09T15:06:20.234Z [Modules] Installing discord_zstd@1 from /home/guru/.config/discord/0.0.54/modules/pending/discord_zstd-1.zip
+2024-06-09T15:06:20.254Z [Modules] Finished module installations. [success: 6] [failure: 0]
+2024-06-09T15:06:20.255Z [Modules] Host is up to date.
+2024-06-09T15:06:20.255Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-06-09T15:06:20.258Z [Modules] No module updates available.
+2024-06-09T15:06:21.345Z [Modules] Starting to install discord_krisp...
+2024-06-09T15:06:21.345Z [Modules] Fetching discord_krisp@2 from https://discord.com/api/modules/stable/discord_krisp/2
+2024-06-09T15:06:21.345Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip
+2024-06-09T15:06:21.351Z [Modules] Starting to install discord_game_utils...
+2024-06-09T15:06:21.473Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 1%
+2024-06-09T15:06:21.485Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 2%
+2024-06-09T15:06:21.506Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 3%
+2024-06-09T15:06:21.526Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 4%
+2024-06-09T15:06:21.556Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 5%
+2024-06-09T15:06:21.566Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 6%
+2024-06-09T15:06:21.588Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 7%
+2024-06-09T15:06:21.658Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 8%
+2024-06-09T15:06:21.659Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 9%
+2024-06-09T15:06:21.677Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 10%
+2024-06-09T15:06:21.771Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 11%
+2024-06-09T15:06:21.772Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 12%
+2024-06-09T15:06:21.772Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 13%
+2024-06-09T15:06:21.772Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 14%
+2024-06-09T15:06:21.773Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 15%
+2024-06-09T15:06:21.808Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 16%
+2024-06-09T15:06:21.854Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 17%
+2024-06-09T15:06:21.889Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 18%
+2024-06-09T15:06:21.891Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 19%
+2024-06-09T15:06:21.892Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 20%
+2024-06-09T15:06:21.916Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 21%
+2024-06-09T15:06:21.936Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 22%
+2024-06-09T15:06:21.961Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 23%
+2024-06-09T15:06:21.988Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 24%
+2024-06-09T15:06:22.030Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 25%
+2024-06-09T15:06:22.041Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 26%
+2024-06-09T15:06:22.066Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 27%
+2024-06-09T15:06:22.094Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 28%
+2024-06-09T15:06:22.116Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 29%
+2024-06-09T15:06:22.142Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 30%
+2024-06-09T15:06:22.167Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 31%
+2024-06-09T15:06:22.208Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 32%
+2024-06-09T15:06:22.214Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 33%
+2024-06-09T15:06:22.236Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 34%
+2024-06-09T15:06:22.259Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 35%
+2024-06-09T15:06:22.283Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 36%
+2024-06-09T15:06:22.311Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 37%
+2024-06-09T15:06:22.332Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 38%
+2024-06-09T15:06:22.370Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 39%
+2024-06-09T15:06:22.384Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 40%
+2024-06-09T15:06:22.414Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 41%
+2024-06-09T15:06:22.449Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 42%
+2024-06-09T15:06:22.488Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 43%
+2024-06-09T15:06:22.528Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 44%
+2024-06-09T15:06:22.531Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 45%
+2024-06-09T15:06:22.552Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 46%
+2024-06-09T15:06:22.576Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 47%
+2024-06-09T15:06:22.599Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 48%
+2024-06-09T15:06:22.621Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 49%
+2024-06-09T15:06:22.641Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 50%
+2024-06-09T15:06:22.648Z [Modules] Host is up to date.
+2024-06-09T15:06:22.648Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-06-09T15:06:22.650Z [Modules] No module updates available.
+2024-06-09T15:06:22.664Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 51%
+2024-06-09T15:06:22.690Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 52%
+2024-06-09T15:06:22.705Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 53%
+2024-06-09T15:06:22.725Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 54%
+2024-06-09T15:06:22.734Z [Modules] Starting to install discord_rpc...
+2024-06-09T15:06:22.745Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 55%
+2024-06-09T15:06:22.765Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 56%
+2024-06-09T15:06:22.785Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 57%
+2024-06-09T15:06:22.808Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 58%
+2024-06-09T15:06:22.832Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 59%
+2024-06-09T15:06:22.888Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 60%
+2024-06-09T15:06:22.889Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 61%
+2024-06-09T15:06:22.901Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 62%
+2024-06-09T15:06:22.938Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 63%
+2024-06-09T15:06:22.953Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 64%
+2024-06-09T15:06:22.963Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 65%
+2024-06-09T15:06:22.983Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 66%
+2024-06-09T15:06:23.004Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 67%
+2024-06-09T15:06:23.022Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 68%
+2024-06-09T15:06:23.043Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 69%
+2024-06-09T15:06:23.064Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 70%
+2024-06-09T15:06:23.084Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 71%
+2024-06-09T15:06:23.103Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 72%
+2024-06-09T15:06:23.125Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 73%
+2024-06-09T15:06:23.184Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 74%
+2024-06-09T15:06:23.185Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 75%
+2024-06-09T15:06:23.186Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 76%
+2024-06-09T15:06:23.210Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 77%
+2024-06-09T15:06:23.245Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 78%
+2024-06-09T15:06:23.249Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 79%
+2024-06-09T15:06:23.269Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 80%
+2024-06-09T15:06:23.289Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 81%
+2024-06-09T15:06:23.309Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 82%
+2024-06-09T15:06:23.330Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 83%
+2024-06-09T15:06:23.350Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 84%
+2024-06-09T15:06:23.372Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 85%
+2024-06-09T15:06:23.391Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 86%
+2024-06-09T15:06:23.414Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 87%
+2024-06-09T15:06:23.467Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 88%
+2024-06-09T15:06:23.472Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 89%
+2024-06-09T15:06:23.499Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 90%
+2024-06-09T15:06:23.536Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 91%
+2024-06-09T15:06:23.541Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 92%
+2024-06-09T15:06:23.561Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 93%
+2024-06-09T15:06:23.588Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 94%
+2024-06-09T15:06:23.601Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 95%
+2024-06-09T15:06:23.623Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 96%
+2024-06-09T15:06:23.648Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 97%
+2024-06-09T15:06:23.668Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 98%
+2024-06-09T15:06:23.689Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 99%
+2024-06-09T15:06:23.708Z [Modules] Streaming discord_krisp@2 to /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip: 100%
+2024-06-09T15:06:23.709Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-06-09T15:06:23.709Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip
+2024-06-09T15:06:23.709Z [Modules] Installing discord_krisp@2 from /home/guru/.config/discord/0.0.54/modules/pending/discord_krisp-2.zip
+2024-06-09T15:06:23.848Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 2%
+2024-06-09T15:06:23.849Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 3%
+2024-06-09T15:06:23.852Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 4%
+2024-06-09T15:06:23.853Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 5%
+2024-06-09T15:06:23.858Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 7%
+2024-06-09T15:06:23.864Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 9%
+2024-06-09T15:06:23.866Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 10%
+2024-06-09T15:06:23.868Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 11%
+2024-06-09T15:06:23.869Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 12%
+2024-06-09T15:06:23.872Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 13%
+2024-06-09T15:06:23.873Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 14%
+2024-06-09T15:06:23.877Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 16%
+2024-06-09T15:06:23.880Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 17%
+2024-06-09T15:06:23.883Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 18%
+2024-06-09T15:06:23.886Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 19%
+2024-06-09T15:06:23.889Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 21%
+2024-06-09T15:06:23.892Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 22%
+2024-06-09T15:06:23.894Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 23%
+2024-06-09T15:06:23.900Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 25%
+2024-06-09T15:06:23.903Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 27%
+2024-06-09T15:06:23.904Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 28%
+2024-06-09T15:06:23.908Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 29%
+2024-06-09T15:06:23.918Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 32%
+2024-06-09T15:06:23.920Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 34%
+2024-06-09T15:06:23.923Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 36%
+2024-06-09T15:06:23.927Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 38%
+2024-06-09T15:06:23.929Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 39%
+2024-06-09T15:06:23.931Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 40%
+2024-06-09T15:06:23.933Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 41%
+2024-06-09T15:06:23.935Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 42%
+2024-06-09T15:06:23.940Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-06-09T15:06:23.940Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 44%
+2024-06-09T15:06:23.945Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 46%
+2024-06-09T15:06:23.947Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 47%
+2024-06-09T15:06:23.948Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 48%
+2024-06-09T15:06:23.953Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 50%
+2024-06-09T15:06:23.955Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 51%
+2024-06-09T15:06:23.958Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 52%
+2024-06-09T15:06:23.961Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 53%
+2024-06-09T15:06:23.965Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 55%
+2024-06-09T15:06:23.968Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 57%
+2024-06-09T15:06:23.973Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 59%
+2024-06-09T15:06:23.975Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 60%
+2024-06-09T15:06:23.979Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 61%
+2024-06-09T15:06:23.999Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 64%
+2024-06-09T15:06:24.003Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 67%
+2024-06-09T15:06:24.003Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 68%
+2024-06-09T15:06:24.007Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 70%
+2024-06-09T15:06:24.007Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 75%
+2024-06-09T15:06:24.011Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 76%
+2024-06-09T15:06:24.013Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 77%
+2024-06-09T15:06:24.015Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 78%
+2024-06-09T15:06:24.018Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 79%
+2024-06-09T15:06:24.019Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 80%
+2024-06-09T15:06:24.023Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 82%
+2024-06-09T15:06:24.027Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 84%
+2024-06-09T15:06:24.032Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 86%
+2024-06-09T15:06:24.034Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 87%
+2024-06-09T15:06:24.039Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 89%
+2024-06-09T15:06:24.043Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 91%
+2024-06-09T15:06:24.047Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 93%
+2024-06-09T15:06:24.051Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 95%
+2024-06-09T15:06:24.054Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 96%
+2024-06-09T15:06:24.058Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 97%
+2024-06-09T15:06:24.062Z [Modules] Streaming discord_game_utils@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip: 100%
+2024-06-09T15:06:24.063Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-06-09T15:06:24.063Z [Modules] Streaming discord_rpc@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_rpc-1.zip
+2024-06-09T15:06:24.064Z [Modules] Installing discord_game_utils@1 from /home/guru/.config/discord/0.0.54/modules/pending/discord_game_utils-1.zip
+2024-06-09T15:06:24.098Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-06-09T15:06:24.191Z [Modules] Streaming discord_rpc@1 to /home/guru/.config/discord/0.0.54/modules/pending/discord_rpc-1.zip: 100%
+2024-06-09T15:06:24.192Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2024-06-09T15:06:24.192Z [Modules] Installing discord_rpc@1 from /home/guru/.config/discord/0.0.54/modules/pending/discord_rpc-1.zip
+2024-06-09T15:06:24.205Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-06-09T15:07:22.591Z [Modules] Modules initializing
+2024-06-09T15:07:22.591Z [Modules] Distribution: remote
+2024-06-09T15:07:22.591Z [Modules] Host updates: disabled
+2024-06-09T15:07:22.591Z [Modules] Module updates: enabled
+2024-06-09T15:07:22.591Z [Modules] Module install path: /home/guru/.config/discord/0.0.54/modules
+2024-06-09T15:07:22.591Z [Modules] Module installed file path: /home/guru/.config/discord/0.0.54/modules/installed.json
+2024-06-09T15:07:22.592Z [Modules] Module download path: /home/guru/.config/discord/0.0.54/modules/pending
+2024-06-09T15:07:22.762Z [Modules] No updates to install
+2024-06-09T15:07:22.763Z [Modules] Host is up to date.
+2024-06-09T15:07:22.763Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-06-09T15:07:22.770Z [Modules] No module updates available.
+2024-06-09T15:07:25.349Z [Modules] Host is up to date.
+2024-06-09T15:07:25.349Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-06-09T15:07:25.353Z [Modules] No module updates available.
+2024-06-09T15:07:26.907Z [Modules] Host is up to date.
+2024-06-09T15:07:26.907Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-06-09T15:07:26.910Z [Modules] No module updates available.

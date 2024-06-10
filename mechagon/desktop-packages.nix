@@ -4,7 +4,7 @@
 
 { config, pkgs, ... }:
 
-# Plasma + Awesome, Bspwm, i3wm and more
+# Hyprland desktop
 
 {
   environment.systemPackages = with pkgs; [
@@ -40,12 +40,6 @@
     libsForQt5.qt5.qtgraphicaleffects
     libsForQt5.qtstyleplugin-kvantum
     libsForQt5.qt5ct
-    #jetbrains-mono
-    #kate
-    #lolcat
-    #lxappearance
-    #mako
-    #materia-kde-theme
     micro
     ocs-url
     papirus-icon-theme

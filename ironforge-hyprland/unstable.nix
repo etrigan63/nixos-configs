@@ -8,25 +8,11 @@
 
     darktable
     digikam
-    distrobox
-    filezilla
-    ffmpeg-full
-    hyprcursor
-    hyprdim
-    hypridle
-    hyprkeys
-    hyprlang
-    hyprlock
-    hyprpaper
-    hyprpicker
     insync
     kitty
     kitty-img
     nextcloud-client
-    nwg-bar
     nwg-drawer
     spotube
-    #warp-terminal
-    wttrbar
    ];
  }  

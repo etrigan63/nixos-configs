@@ -33,6 +33,7 @@
     edid-decode
     #etcher
     evince
+    fastfetch
     #feh
     filezilla
     firefox
@@ -63,16 +64,12 @@
     lunarvim
     meld
     most
-    fastfetch
     #neovim
     nerdfonts
     networkmanagerapplet
     nixos-generators
     (nnn.override { withNerdIcons = true; })
-    nodejs
-    nodePackages_latest.npm
-    ocl-icd
-    obs-studio
+    nvme-cli
     ookla-speedtest
     qbittorrent-qt5
     popsicle

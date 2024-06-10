@@ -8,9 +8,12 @@
 
 {
   environment.systemPackages = with pkgs; [
+    #obs-studio-plugins.wlrobs
+    adw-gtk3
     amberol
     betterdiscordctl
     #blackbox-terminal
+    btop
     (catppuccin-gtk.override {
       accents = [ "blue" ]; # You can specify multiple accents here to output multiple themes
       size = "standard";
@@ -18,41 +21,58 @@
       variant = "mocha";
     })
     catppuccin-kvantum
-    celluloid
+    cava
     chromium
     discord
     firefox
     fragments
     fuzzel
-    gimp
-    gimpPlugins.gimplensfun
-    gnome.dconf-editor
+    glib
     gnome.file-roller
-    gnome.gvfs
-    inkscape
-    lensfun
-    mako
-    meld
-    obs-studio
-    obs-studio-plugins.wlrobs
+    gnumake
+    gradience
+    grim
+    grimblast
+    gsettings-desktop-schemas
+    hyprcursor
+    hyprdim
+    hypridle
+    hyprkeys
+    hyprlang
+    hyprlock
+    hyprpaper
+    hyprpicker
+    imlib2
+    libnotify
+    libsForQt5.qt5.qtgraphicaleffects
+    libsForQt5.qtstyleplugin-kvantum
+    libsForQt5.qt5ct
+    micro
     ocs-url
+    orca-slicer
     papirus-icon-theme
+    pamixer
     pavucontrol
-    popsicle
-    rapid-photo-downloader
-    # slstatus
-    # syncthingtray
+    python311Packages.sparklines
+    rofi
+    slstatus
+    slurp
+    swaybg
+    swayidle
+    swayimg
+    swaylock
+    swaynotificationcenter
     telegram-desktop
-    thunderbird
-    # tokyo-night-gtk
-    # trayscale
-    # variety
-    ventoy
     waybar
+    wdisplays
     wl-clipboard
+    wofi
+    wttrbar
+    xfce.ristretto
     xfce.thunar
     xfce.thunar-archive-plugin
     xfce.thunar-volman
+    xfce.tumbler
     yt-dlp
 ];
 }

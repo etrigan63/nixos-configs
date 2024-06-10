@@ -2,7 +2,8 @@
 # your system. Help is available in the configuration.nix(5) man page, on
 # https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
 
-{config, pkgs, lib, ...}: 
+{ config, lib, pkgs, ... }:
+
 
 let
   nixpkgs-unstable = fetchTarball { url="https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz"; };
@@ -10,8 +11,9 @@ let
 in {
   # Allow unfree packages
   nixpkgs.config = {
-    allowUnfree =true;
+    allowUnfree = true;
   };
+
   imports =
     [ 
       # Include the results of the hardware scan.
@@ -22,6 +24,8 @@ in {
       ./env-vars.nix
       {_module.args.upkgs = upkgs;}
       ./unstable.nix
+      #./virtualbox.nix
+      ./desktops/hyprland.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -30,9 +34,11 @@ in {
     configurationLimit = 10;
   };
   boot.loader.efi.canTouchEfiVariables = true;
-  #boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.kernelParams = [ "amdgpu.sg_display=0" ];
   #boot.supportedFilesystems = [ "bcachefs" ];
+  # Swappiness
+  boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   networking.hostName = "ironforge"; # Define your hostname.
   # Pick only one of the below networking options.
@@ -50,6 +56,7 @@ in {
   fileSystems."/mnt/tank" = {
     device = "kharanos.local:/mnt/tank";
     fsType = "nfs";
+    options = [ "x-systemd.automount" "noauto" ];
   };
 
   # Select internationalisation properties.
@@ -72,41 +79,42 @@ in {
   # };
 
   # Enable the X11 windowing system.
-  services.xserver = {
-    enable = true;
-    displayManager.gdm = { 
-      enable = true;
-      wayland = true;
-    };  
-  };
-  programs.hyprland = {
-    # Install the packages from nixpkgs
-    package = upkgs.hyprland;
-    enable = true;
-    # Whether to enable XWayland
-    xwayland.enable = true;
+  #services.xserver = {
+  #  enable = true;
+  #  };
+  #services.displayManager.sddm = { 
+  #    enable = true;
+  #    settings = {
+  #      Theme = {
+  #        Current = "eucalyptus-drop";
+  #        ThemeDir = "/sddm-themes";
+  #        CursorTheme = "Bibata-Modern-Ice";
+  #      };
+  #    }; 
+  #};
 
-    # Optional
-    # Whether to enable patching wlroots for better Nvidia support
-    #enableNvidiaPatches = true;
-  };
-  xdg.portal = {
+  # Enable regreet display manager
+  programs.regreet = {
     enable = true;
-    extraPortals = [
-      pkgs.xdg-desktop-portal-gtk
-    ];
+    settings = {
+      GTK = {
+        application_prefer_dark_theme = true;
+        cursor_theme_name = "Bibata-Modern-Ice";
+        font_name = "Roboto 20";
+        icon_theme_name = "Papirus-Dark";
+        theme_name = "Catppuccin-Mocha-Standard-Blue-Dark";
+      };
+    };
   };
-  environment.sessionVariables.NIXOS_OZONE_WL = "1";
-
   # for wayland dark theme  
   programs.dconf = {
      enable = true;
      profiles.user.databases = [
        {
          settings."org/gnome/desktop/interface" = {
-           gtk-theme = "Catppuccin-Mocha-Standard-Blue-Dark";
+           gtk-theme = "adw-gtk3";
            icon-theme = "Papirus-Dark";
-           cursor-theme = "Bibata-Modern-ice";
+           cursor-theme = "Bibata-Modern-Ice";
            font-name = "Roboto 12";
            monospace-font-name = "RobotoMono Nerd Font";
            document-font-name = "Roboto 12";
@@ -118,10 +126,10 @@ in {
   environment.etc = {
     "xdg/gtk-3.0/settings.ini".text = ''
       [Settings]
-      gtk-cursor-theme-name=Bibata-Modern-ice
+      gtk-cursor-theme-name=Bibata-Modern-Ice
       gtk-font-name=Roboto 12
       gtk-icon-theme-name=Papirus-Dark
-      gtk-theme-name=Catppuccin-Mocha-Standard-Blue-Dark
+      gtk-theme-name=adw-gtk3
     '';
     # qt compat mode is gtk2 based.
     "xdg/gtk-2.0/gtkrc".text = ''
@@ -143,7 +151,7 @@ in {
     };
   };
 
-  # Fonts
+   # Fonts
   fonts.packages = with pkgs; [
     font-awesome
     (nerdfonts.override { fonts = [ "Hack" "JetBrainsMono" "RobotoMono"];})
@@ -154,7 +162,6 @@ in {
     roboto-slab
     tt2020
   ];
-
   # Configure keymap in X11
   services.xserver.xkb.layout = "us";
   # services.xserver.xkb.options = "eurosign:e,caps:escape";
@@ -219,8 +226,8 @@ in {
   # Avahi zeroconf services
   services.avahi = {
     enable = true;
-    nssmdns = true;
-    # nssmdns4 = true;
+    #nssmdns = true;
+    nssmdns4 = true;
     ipv4 = true;
     ipv6 = true;
     openFirewall = true;
@@ -269,22 +276,20 @@ in {
   services.flatpak.enable = true;
 
   # Virtualisation
-  virtualisation = {
-    vmware = {
-      host.enable = true;
-    };
-    podman = {
-      enable = true;
-      dockerCompat = true;
-      defaultNetwork.settings.dns_enabled = true;
-    };
-  };
+  #virtualisation = {
+  #  vmware = {
+  #    host.enable = true;
+  #  };
+  #};
 
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
 
   # Disable x11-askPass
   programs.ssh.askPassword = "";
+
+  # Enable Gnome-Keyring
+  services.gnome.gnome-keyring.enable = true;
 
   # Hardware
   # OpenCL and Vulkan

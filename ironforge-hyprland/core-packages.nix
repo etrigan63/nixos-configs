@@ -9,56 +9,82 @@
 {
   environment.systemPackages = with pkgs; [
     avahi
+    baobab
+    bash-completion
     bat
+    betterdiscordctl
     bibata-cursors
     blueberry
-    bottom
-    cava
+    btop
+    #chromium
     curl
     desktop-file-utils
+    dex
+    discord
+    #dmenu
+    #dropbox
     duf
     edid-decode
     #etcher
     evince
     fastfetch
+    ffmpeg_7-full
+    filezilla
+    firefox
     fish
     fishPlugins.tide
+    font-manager
     fsearch
+    gimp
     git
     gitui
-    glib
-    gnumake
+    gnome.dconf-editor
+    gnome.gnome-disk-utility
+    gnome.gnome-keyring
+    gnome.gvfs
+    gnome.libgnome-keyring
+    gnome.seahorse
     #hack-font
     hblock
     hw-probe
     hwinfo
-    imlib2
+    #i3lock-fancy
+    inkscape
+    #insync
     inxi
+    jq
     killall
-    libnotify
-    libsForQt5.qtstyleplugin-kvantum
-    libsForQt5.qt5ct
-    libva-utils
+    #kitty
+    libsecret
     lm_sensors
     lshw
     lunarvim
+    meld
     most
+    #neovim
+    nerdfonts
+    networkmanagerapplet
     nixos-generators
     (nnn.override { withNerdIcons = true; })
     nvme-cli
     ookla-speedtest
+    qbittorrent-qt5
+    popsicle
     procps
     python3
     python311Packages.sparklines
     qt6Packages.qtstyleplugin-kvantum
+    rapid-photo-downloader
     ripgrep
+    scrot
     #simplescreenrecorder
     swtpm
     tree
     unzip
     usbutils
     wget
-    wireplumber
-    #xorg.xkill
+    widevine-cdm
+    xcur2png
+    zig
   ];
 }

@@ -326,6 +326,9 @@ in {
   # Gvfs
   services.gvfs.enable = true;
 
+  # Enable Gnome-Keyring
+  services.gnome.gnome-keyring.enable = true;
+
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 

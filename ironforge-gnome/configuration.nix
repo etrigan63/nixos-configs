@@ -33,9 +33,11 @@ in {
     configurationLimit = 10;
   };
   boot.loader.efi.canTouchEfiVariables = true;
-  #boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.kernelParams = [ "amdgpu.sg_display=0" ];
   #boot.supportedFilesystems = [ "bcachefs" ];
+  # Swappiness
+  boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   networking.hostName = "ironforge"; # Define your hostname.
   # Pick only one of the below networking options.
@@ -250,6 +252,9 @@ in {
 
   # Disable x11-askPass
   programs.ssh.askPassword = "";
+
+  # Enable Gnome-Keyring
+  services.gnome.gnome-keyring.enable = true;
 
   # Hardware
   # OpenCL and Vulkan

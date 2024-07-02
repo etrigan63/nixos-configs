@@ -85,6 +85,7 @@
     wget
     widevine-cdm
     xcur2png
+    xorg.libxcb
     zig
   ];
 }

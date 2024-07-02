@@ -9,10 +9,11 @@
     darktable
     digikam
     insync
-    kitty
-    kitty-img
     nextcloud-client
     nwg-drawer
+    ptyxis
+    quickgui
+    quickemu
     spotube
    ];
  }  

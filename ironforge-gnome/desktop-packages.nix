@@ -23,7 +23,7 @@
       tweaks = [ "normal" ]; # You can also specify multiple tweaks here
       variant = "mocha";
     })
-    celluloid
+    catppuccin-kvantum
     chromium
     darktable
     digikam
@@ -57,13 +57,13 @@
     popsicle
     qownnotes
     rapid-photo-downloader
-    spotube
+    rpi-imager
     telegram-desktop
     thunderbird
     # variety
     ventoy
     # wavebox
-    wezterm
+    #wezterm
     wl-clipboard
     yt-dlp
 ];

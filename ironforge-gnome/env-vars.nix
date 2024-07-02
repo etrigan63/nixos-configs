@@ -20,7 +20,7 @@
     XDG_DATA_HOME   = "$HOME/.local/share";
     XDG_STATE_HOME  = "$HOME/.local/state";
     XDG_USER_DIR    = "$HOME";
-
+    XDG_CURRENT_DESKTOP="GNOME";
     # Not officially in the specification
     XDG_BIN_HOME    = "$HOME/.bin";
     PATH = [ 

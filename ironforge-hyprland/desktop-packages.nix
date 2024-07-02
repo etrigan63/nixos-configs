@@ -57,12 +57,14 @@
     rofi
     slstatus
     slurp
+    spice-gtk
     swaybg
     swayidle
     swayimg
     swaylock
     swaynotificationcenter
     telegram-desktop
+    thunderbird
     waybar
     wdisplays
     wl-clipboard

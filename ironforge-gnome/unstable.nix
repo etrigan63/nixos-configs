@@ -17,6 +17,9 @@
     #insync
     #localsend
     #nextcloud-client
-    #spotube
+    ptyxis
+    quickgui
+    quickemu
+    spotube
    ];
  }  

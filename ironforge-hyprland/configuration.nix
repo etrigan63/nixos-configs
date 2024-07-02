@@ -22,6 +22,7 @@ in {
       ./core-packages.nix
       ./desktop-packages.nix
       ./env-vars.nix
+      ./hosts.nix
       {_module.args.upkgs = upkgs;}
       ./unstable.nix
       #./virtualbox.nix
@@ -97,6 +98,9 @@ in {
   programs.regreet = {
     enable = true;
     settings = {
+      background = {
+        path = "/regreet-backgrounds/japanese-street-scene.png";
+      };
       GTK = {
         application_prefer_dark_theme = true;
         cursor_theme_name = "Bibata-Modern-Ice";
@@ -277,9 +281,15 @@ in {
 
   # Virtualisation
   #virtualisation = {
-  #  vmware = {
-  #    host.enable = true;
-  #  };
+  # vmware = {
+  #   host.enable = true;
+  # };
+  #libvirtd = {
+  #  enable = true;
+  # };
+  #};
+  #programs.virt-manager = {
+  #  enable = true;
   #};
 
   # Enable the OpenSSH daemon.

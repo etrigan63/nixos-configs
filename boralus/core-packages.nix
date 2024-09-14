@@ -21,7 +21,7 @@
     #betterdiscordctl
     #bibata-cursors
     #blueberry
-    bottom
+    btop
     #chromium
     curl
     #desktop-file-utils
@@ -54,15 +54,19 @@
     #inkscape
     #insync
     inxi
+    jellyfin
+    jellyfin-web
+    jellyfin-ffmpeg
     killall
     #kitty
     libsecret
     lm_sensors
     lshw
+    lunarvim
     #meld
     most
     fastfetch
-    neovim
+    #neovim
     (nerdfonts.override { fonts = [ "RobotoMono"]; })
     #networkmanagerapplet
     nixos-generators

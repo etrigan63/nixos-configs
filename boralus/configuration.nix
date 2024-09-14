@@ -16,13 +16,12 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
   boot.kernelPackages = pkgs.linuxPackages_latest;
-  # Enable ZFS
-  #boot.kernelPackages = config.boot.zfs.package.latestCompatibleLinuxPackages;
-  #fileSystems."/mnt/tank" = {
-  #  device = "tank";
-  #  fsType = "zfs";
-  #};
-  #services.zfs.autoScrub.enable = true;
+
+  # Mount media drive
+  fileSystems."/mnt/media" = {
+    device = "/dev/disk/by-uuid/8adb6073-6832-430b-a120-8b03f564125b";
+    fsType = "btrfs";
+  };
 
   networking.hostName = "boralus"; # Define your hostname.
   networking.hostId = "dbde4fe5";
@@ -48,15 +47,6 @@
     };
   };
 
-  # Enable NFS
-  #services.nfs.server = {
-  #  enable = true;
-  #  exports = ''
-      # Export /mnt/tank
-  #    /mnt/tank		192.168.1.0/24(rw,crossmnt,sync,no_wdelay,no_root_squash,insecure,no_subtree_check)
-  #    '';
-  #};    
-
   # Set your time zone.
   time.timeZone = "America/New_York";
 
@@ -77,8 +67,8 @@
 
   # Configure keymap in X11
   services.xserver = {
-    layout = "us";
-    xkbVariant = "";
+    xkb.layout = "us";
+    xkb.variant = "";
   };
 
   # Enable fish shell
@@ -94,6 +84,17 @@
       configDir = "/home/guru/.config/syncthing";
     };
   };
+
+  # Enable Jellyfin
+  services.jellyfin = {
+    enable = true;
+    dataDir = "/mnt/media/jellyfin/data/";
+    configDir = "/mnt/media/jellyfin/data/config";
+    user = "guru";
+  };  
+
+  # Enable Tailscale
+  services.tailscale.enable = true; 
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.guru = {
@@ -125,10 +126,11 @@
   # List services that you want to enable:
   
   # Enable docker
-  virtualization.docker.rootless = {
-    enable = true;
-    setSocketVariable = true;
-  };
+  #virtualisation.docker.rootless = {
+  #  enable = true;
+  #  setSocketVariable = true;
+  #};
+
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
 

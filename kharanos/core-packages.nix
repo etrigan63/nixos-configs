@@ -43,6 +43,7 @@
     #gimp
     git
     gitui
+    gptfdisk
     #gnome.dconf-editor
     #gnome.gnome-disk-utility
     #gnome.gvfs
@@ -63,7 +64,8 @@
     most
     fastfetch
     neovim
-    nerdfonts
+    nerd-fonts.caskaydia-cove
+    nerd-fonts.symbols-only
     #networkmanagerapplet
     nixos-generators
     (nnn.override { withNerdIcons = true; })
@@ -86,6 +88,7 @@
     #spotify
     #telegram-desktop
     #thunderbird
+    smartmontools
     tree
     unzip
     #variety

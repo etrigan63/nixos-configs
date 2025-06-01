@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
       ./core-packages.nix
       ./env-vars.nix
+      ./samba.nix
     ];
 
   # Bootloader.
@@ -17,7 +18,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   # Enable ZFS
-  boot.kernelPackages = config.boot.zfs.package.latestCompatibleLinuxPackages;
+  # boot.kernelPackages = config.boot.zfs.package.latestCompatibleLinuxPackages; -- deprecated
   fileSystems."/mnt/tank" = {
     device = "tank";
     fsType = "zfs";
@@ -37,7 +38,7 @@
  
   # Enable avahi
   services.avahi = {
-    nssmdns = true;
+    nssmdns4 = true;
     enable = true;
     ipv4 = true;
     ipv6 = true;
@@ -77,8 +78,8 @@
 
   # Configure keymap in X11
   services.xserver = {
-    layout = "us";
-    xkbVariant = "";
+    xkb.layout = "us";
+    xkb.variant = "";
   };
 
   # Enable fish shell

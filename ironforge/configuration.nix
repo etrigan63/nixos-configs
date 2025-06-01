@@ -86,7 +86,7 @@
   services.xserver.enable = true;
 
   # Enable tailscale
-  services.tailscale.enable = true;
+  #services.tailscale.enable = true;
 
   # Enable flatpaks
   services.flatpak.enable = true;
@@ -188,7 +188,12 @@
   services.xserver = {
     layout = "us";
     xkbVariant = "";
-    libinput.touchpad.disableWhileTyping = true;
+  };
+  
+  # Touchpad configuration
+  services.xserver.libinput.touchpad = {
+    disableWhileTyping = true;
+    tapping = false;
   };
 
   # Enable CUPS to print documents.

@@ -1,0 +1,8 @@
+2024/06/09-11:07:22.582 95f9 Reusing MANIFEST /home/guru/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/06/09-11:07:22.583 95f9 Recovering log #3
+2024/06/09-11:07:22.599 95f9 Level-0 table #3: started
+2024/06/09-11:07:22.620 95f9 Level-0 table #3: 3126639 bytes OK
+2024/06/09-11:07:22.630 95f9 Delete type=0 #3
+2024/06/09-11:07:33.720 95f9 Level-0 table #6: started
+2024/06/09-11:07:33.747 95f9 Level-0 table #6: 3126038 bytes OK
+2024/06/09-11:07:33.757 95f9 Delete type=0 #4

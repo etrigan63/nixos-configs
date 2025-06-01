@@ -44,7 +44,9 @@
     git
     gitui
     gnome.dconf-editor
+    gnome.file-roller
     gnome.gnome-disk-utility
+    gnome.gnome-keyring
     gnome.gvfs
     #hack-font
     hblock
@@ -59,10 +61,10 @@
     libsecret
     lm_sensors
     lshw
+    lunarvim
     meld
     most
     fastfetch
-    neovim
     nerdfonts
     networkmanagerapplet
     nixos-generators
@@ -96,8 +98,9 @@
     widevine-cdm
     xorg.xkill
     zig
-    zsh
-    zsh-completions
-    zsh-syntax-highlighting
+    zip
+    #zsh
+    #zsh-completions
+    #zsh-syntax-highlighting
   ];
 }

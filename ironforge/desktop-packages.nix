@@ -47,7 +47,6 @@
     papirus-icon-theme
     pamixer
     pavucontrol
-    peazip
     python311Packages.sparklines
     rofi
     slstatus
@@ -59,7 +58,6 @@
     swaylock
     swaynotificationcenter
     syncthingtray
-    tokyo-night-gtk
     trayscale
     waybar
     wdisplays

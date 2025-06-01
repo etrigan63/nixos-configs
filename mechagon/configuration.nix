@@ -3,10 +3,13 @@
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 # https://releases.nixos.org/nixos/unstable/
 
-{ config, pkgs, ... }:
+{ config, lib, pkgs, ... }:
 
 
-{
+let
+  nixpkgs-unstable = fetchTarball { url="https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz"; };
+  upkgs = (import nixpkgs-unstable {config.allowUnfree = true;});
+in {
   # Allow unfree packages
   nixpkgs.config = {
     allowUnfree = true;
@@ -19,6 +22,7 @@
       ./desktop-packages.nix
       #./samba.nix
       ./env-vars.nix
+      {_module.args.upkgs = upkgs;}
       ./unstable.nix
       #./virtualbox.nix
       ./desktops/hyprland.nix
@@ -27,6 +31,7 @@
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+  #boot.supportedFilesystems = [ "bcachefs" ];
 
   # Enable fonts
   fonts.packages = with pkgs; [
@@ -42,7 +47,7 @@
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   # Kernel
-  boot.kernelPackages = pkgs.linuxPackages_lqx;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.kernelParams = ["amdgpu.sg_display=0"];
 
   # Boot loader limit entries
@@ -103,21 +108,28 @@
     amdvlk
   ];
 
-  # Enable the KDE Plasma Desktop Environment.
-  services.xserver.displayManager.sddm = {
+  # Enable SDDM.
+  services.displayManager.sddm = {
 	enable = true;
-	theme = "chili";
+	#theme = "chili";
+  settings = {
+    Theme = {
+      Current = "eucalyptus-drop";
+      ThemeDir = "/sddm-themes";
+      CursorTheme = "Bibata-Modern-Ice";
+    };
   };
-  # services.xserver.desktopManager.plasma5.enable = true;
+  }; 
+
   # for wayland dark theme  
   programs.dconf = {
      enable = true;
      profiles.user.databases = [
        {
          settings."org/gnome/desktop/interface" = {
-           gtk-theme = "Catppuccin-Mocha-Standard-Blue-Dark";
+           gtk-theme = "adw-gtk3";
            icon-theme = "Papirus-Dark";
-           cursor-theme = "Bibata-Modern-ice";
+           cursor-theme = "Bibata-Modern-Ice";
            font-name = "Roboto 12";
            monospace-font-name = "RobotoMono Nerd Font";
            document-font-name = "Roboto 12";
@@ -129,10 +141,10 @@
   environment.etc = {
     "xdg/gtk-3.0/settings.ini".text = ''
       [Settings]
-      gtk-cursor-theme-name=Bibata-Modern-ice
+      gtk-cursor-theme-name=Bibata-Modern-Ice
       gtk-font-name=Roboto 12
       gtk-icon-theme-name=Papirus-Dark
-      gtk-theme-name=Catppuccin-Mocha-Standard-Blue-Dark
+      gtk-theme-name=adw-gtk3
     '';
     # qt compat mode is gtk2 based.
     "xdg/gtk-2.0/gtkrc".text = ''
@@ -182,14 +194,19 @@
 
   # Configure keymap in X11
   services.xserver = {
-    layout = "us";
-    xkbVariant = "";
-    libinput.touchpad.disableWhileTyping = true;
+    xkb.layout = "us";
+    xkb.variant = "";
+  };
+
+  # Touchpad configuration
+  services.libinput.touchpad = {
+    disableWhileTyping = true;
+    tapping = false;
   };
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
-  services.printing.drivers = [pkgs.hplipWithPlugin];
+  #services.printing.drivers = [pkgs.hplipWithPlugin];
 
   # Enable sound with pipewire.
   sound.enable = true;
@@ -258,8 +275,8 @@
 
   services.avahi = {
     enable = true;
-    nssmdns = true;
-    #nssmdns4 = true;
+    #nssmdns = true;
+    nssmdns4 = true;
     ipv4 = true;
     ipv6 = true;
     publish = {
@@ -309,6 +326,9 @@
   # Gvfs
   services.gvfs.enable = true;
 
+  # Enable Gnome-Keyring
+  services.gnome.gnome-keyring.enable = true;
+
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
@@ -324,7 +344,7 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "23.11"; # Did you read the comment?
+  system.stateVersion = "24.05"; # Did you read the comment?
 
   # Automatic garbage collection of old generations
   #nix.gc = {
@@ -333,7 +353,5 @@
   #  options = "--delete-older-than 14d";
   #};
  
-  nixpkgs.config.permittedInsecurePackages = [
-	 "openssl-1.1.1w" "electron-19.1.9"
-  ];
+
 }

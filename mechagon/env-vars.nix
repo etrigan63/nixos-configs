@@ -6,10 +6,12 @@
 
 {
   environment.variables = {
-    EDITOR = "nvim";
-    VISUAL = "nvim";
+    EDITOR = "lvim";
+    VISUAL = "lvim";
     BROWSER = "firefox";
     QT_QPA_PLATFORM = "xcb";
+    XCURSOR_THEME = "Bibata-Modern-Ice";
+    XCURSOR_SIZE = "24";
     #QT_QPA_PLATFORMTHEME = lib.mkForce "qt5ct";
   };
 

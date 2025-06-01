@@ -21,7 +21,7 @@
     betterdiscordctl
     bibata-cursors
     blueberry
-    bottom
+    btop
     #chromium
     curl
     desktop-file-utils
@@ -33,6 +33,7 @@
     edid-decode
     #etcher
     evince
+    fastfetch
     #feh
     filezilla
     firefox
@@ -45,6 +46,7 @@
     gitui
     gnome.dconf-editor
     gnome.gnome-disk-utility
+    gnome.gnome-keyring
     gnome.gvfs
     #hack-font
     hblock
@@ -59,21 +61,18 @@
     libsecret
     lm_sensors
     lshw
+    lunarvim
     meld
     most
-    fastfetch
-    neovim
+    #neovim
     nerdfonts
     networkmanagerapplet
     nixos-generators
     (nnn.override { withNerdIcons = true; })
-    nodejs
-    nodePackages_latest.npm
-    nomacs
-    ocl-icd
-    obs-studio
+    nvme-cli
     ookla-speedtest
     qbittorrent-qt5
+    popsicle
     procps
     python3
     python311Packages.pynvim
@@ -81,23 +80,24 @@
     rapid-photo-downloader
     ripgrep
     scrot
-    sddm-chili-theme
     #simplescreenrecorder
     spotify
     telegram-desktop
-    thunderbird
+    #thunderbird
     tree
     unzip
     variety
+    ventoy-full
+    #vimPlugins.nvchad
     vlc
     volumeicon
     #vscode
     wget
     widevine-cdm
-    xorg.xkill
+    xcur2png
     zig
-    zsh
-    zsh-completions
-    zsh-syntax-highlighting
+    #zsh
+    #zsh-completions
+    #zsh-syntax-highlighting
   ];
 }

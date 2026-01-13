@@ -71,6 +71,7 @@ in
   users.users.kiosk = {
     isNormalUser = true;
     extraGroups = [ "video" "audio" "render" "wheel" ];
+    initialPassword = "Pass1word001";
   };
 
   # 8. System Packages

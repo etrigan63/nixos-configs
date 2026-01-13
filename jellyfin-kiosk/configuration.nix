@@ -13,8 +13,7 @@ in
   imports = [ ./hardware-configuration.nix ];
 
   # 1. Hardware & Bootloader (Standard RPi4 settings)
-  boot.loader.raspberryPi.enable = true;
-  boot.loader.raspberryPi.version = 4;
+  boot.loader.grub.enable = false;
   boot.loader.generic-extlinux-compatible.enable = true;
   boot.kernelPackages = pkgs.linuxKernel.packages.linux_rpi4;
 
@@ -53,19 +52,6 @@ in
     program = "${unstable.jellyfin-desktop}/bin/jellyfin-desktop --fullscreen";
   };
 
-  # 6. Maintenance: Thermal Monitor
-  systemd.services.rpi-monitor = {
-    description = "Monitor Raspberry Pi thermal and voltage status";
-    wantedBy = [ "multi-user.target" ];
-    script = ''
-      while true; do
-        TEMP=$(${pkgs.raspberrypi-utils}/bin/vcgencmd measure_temp)
-        THROTTLED=$(${pkgs.raspberrypi-utils}/bin/vcgencmd get_throttled)
-        echo "Status: $TEMP | $THROTTLED"
-        sleep 60
-      done
-    '';
-  };
 
   # 7. User and Permissions
   users.users.kiosk = {
@@ -76,7 +62,6 @@ in
 
   # 8. System Packages
   environment.systemPackages = with pkgs; [
-    raspberrypi-utils
     libcec-rpi # Using our RPi-enabled version of libcec
     unstable.jellyfin-desktop
     htop

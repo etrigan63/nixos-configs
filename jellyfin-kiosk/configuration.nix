@@ -81,5 +81,5 @@ in
     htop
   ];
 
-  system.stateVersion = "26.04";
+  system.stateVersion = "26.05";
 }
